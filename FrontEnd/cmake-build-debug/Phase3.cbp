@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Phase3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Phase3">
+				<Option output="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Phase3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 Phase3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Phase3/fast">
+				<Option output="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Phase3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 Phase3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/Account.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/AccountDatabase.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/Authenticator.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/Item.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/ItemDatabase.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/SessionHandler.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/accounttypes/AccountType.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/accounttypes/AdminAccountType.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/accounttypes/BuyStandardAccountType.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/accounttypes/FullStandardAccountType.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/accounttypes/SellStandardAccountType.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/services/AccountsService.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/services/CreditService.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/services/SalesService.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/services/SignInService.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/transactions/AccountCreatedTransaction.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/transactions/AccountDeletedTransaction.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/transactions/AdvertiseTransaction.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/transactions/BidTransaction.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/transactions/CreditAddedTransaction.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/transactions/RefundTransaction.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/transactions/SessionEndTransaction.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Classes/transactions/Transaction.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/Account.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/AccountDatabase.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/Authenticator.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/IOHelper.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/Item.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/ItemDatabase.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/SessionHandler.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/accounttypes/AccountType.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/accounttypes/AdminAccountType.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/accounttypes/BuyStandardAccountType.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/accounttypes/FullStandardAccountType.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/accounttypes/SellStandardAccountType.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/services/AccountsService.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/services/CreditService.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/services/SalesService.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/services/SignInService.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/transactions/AccountCreatedTransaction.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/transactions/AccountDeletedTransaction.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/transactions/AdvertiseTransaction.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/transactions/BidTransaction.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/transactions/CreditAddedTransaction.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/transactions/RefundTransaction.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/transactions/SessionEndTransaction.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/Headers/transactions/Transaction.h">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/main.cpp">
+			<Option target="Phase3"/>
+		</Unit>
+		<Unit filename="/Users/yashdhume/CLionProjects/CSCI3060_Project_BackEnd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

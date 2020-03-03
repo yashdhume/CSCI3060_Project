@@ -1,0 +1,12 @@
+Enter a command
+Enter a username
+Login Successful
+Enter a command
+Enter the username of the buyer
+Enter the username of the seller
+Refund failed. Seller account does not exist
+Enter a command
+Invalid command. Valid commands are: login logout create delete refund addcredit advertise bid exit
+Enter a command
+Logout Successful
+Enter a command
