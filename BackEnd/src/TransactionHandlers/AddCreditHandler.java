@@ -1,12 +1,13 @@
 package TransactionHandlers;
 
 import Transaction.Transaction;
+import Transaction.TransactionType;
 
 public class AddCreditHandler implements TransactionHandler{
 
     @Override
     public int getType() {
-        return 0;
+        return TransactionType.CREATE;
     }
 
     @Override
@@ -18,4 +19,5 @@ public class AddCreditHandler implements TransactionHandler{
     public boolean transactionChecker(Transaction transaction) {
         return false;
     }
+
 }
