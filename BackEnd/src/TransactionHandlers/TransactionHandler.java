@@ -3,7 +3,7 @@ package TransactionHandlers;
 import Transaction.Transaction;
 
 public interface TransactionHandler {
-    int getType();
+    int getAccountType();
     String getName();
     boolean transactionChecker(Transaction transaction);
 }

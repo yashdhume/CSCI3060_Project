@@ -6,8 +6,8 @@ import Transaction.TransactionType;
 public class AddCreditHandler implements TransactionHandler{
 
     @Override
-    public int getType() {
-        return TransactionType.CREATE;
+    public int getAccountType() {
+        return TransactionType.ADD_CREDIT;
     }
 
     @Override
