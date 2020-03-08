@@ -6,167 +6,167 @@
 
 #IncludeRegexTransform: 
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/Account.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Account.cpp
 ../Headers/Account.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Account.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Account.h
 ../Headers/IOHelper.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/IOHelper.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/IOHelper.h
 utility
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/AccountDatabase.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/AccountDatabase.cpp
 ../Headers/AccountDatabase.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/AccountDatabase.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/AccountDatabase.h
 ../Headers/IOHelper.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/IOHelper.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/IOHelper.h
 utility
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/Authenticator.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Authenticator.cpp
 ../Headers/Authenticator.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Authenticator.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Authenticator.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/Item.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Item.cpp
 ../Headers/Item.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Item.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Item.h
 ../Headers/IOHelper.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/IOHelper.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/IOHelper.h
 utility
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/ItemDatabase.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/ItemDatabase.cpp
 iostream
 -
 utility
 -
 ../Headers/ItemDatabase.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/ItemDatabase.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/ItemDatabase.h
 ../Headers/IOHelper.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/IOHelper.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/IOHelper.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/SessionHandler.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/SessionHandler.cpp
 ../Headers/SessionHandler.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/SessionHandler.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/SessionHandler.h
 ../Headers/transactions/SessionEndTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/SessionEndTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/SessionEndTransaction.h
 utility
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/accounttypes/AccountType.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/AccountType.cpp
 ../../Headers/accounttypes/AccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/AccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/AccountType.h
 ../../Headers/accounttypes/AdminAccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/AdminAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/AdminAccountType.h
 ../../Headers/accounttypes/BuyStandardAccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/BuyStandardAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/BuyStandardAccountType.h
 ../../Headers/accounttypes/FullStandardAccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/FullStandardAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/FullStandardAccountType.h
 ../../Headers/accounttypes/SellStandardAccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/SellStandardAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/SellStandardAccountType.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/accounttypes/AdminAccountType.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/AdminAccountType.cpp
 ../../Headers/accounttypes/AdminAccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/AdminAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/AdminAccountType.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/accounttypes/BuyStandardAccountType.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/BuyStandardAccountType.cpp
 ../../Headers/accounttypes/BuyStandardAccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/BuyStandardAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/BuyStandardAccountType.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/accounttypes/FullStandardAccountType.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/FullStandardAccountType.cpp
 ../../Headers/accounttypes/FullStandardAccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/FullStandardAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/FullStandardAccountType.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/accounttypes/SellStandardAccountType.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/SellStandardAccountType.cpp
 ../../Headers/accounttypes/SellStandardAccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/SellStandardAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/SellStandardAccountType.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/services/AccountsService.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/AccountsService.cpp
 ../../Headers/services/AccountsService.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/services/AccountsService.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/AccountsService.h
 utility
 -
 algorithm
 -
 ../../Headers/accounttypes/BuyStandardAccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/BuyStandardAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/BuyStandardAccountType.h
 ../../Headers/transactions/AccountCreatedTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/AccountCreatedTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/AccountCreatedTransaction.h
 ../../Headers/transactions/AccountDeletedTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/AccountDeletedTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/AccountDeletedTransaction.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/services/CreditService.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/CreditService.cpp
 ../../Headers/services/CreditService.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/services/CreditService.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/CreditService.h
 ../../Headers/transactions/RefundTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/RefundTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/RefundTransaction.h
 ../../Headers/transactions/CreditAddedTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/CreditAddedTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/CreditAddedTransaction.h
 utility
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/services/SalesService.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/SalesService.cpp
 ../../Headers/services/SalesService.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/services/SalesService.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/SalesService.h
 ../../Headers/transactions/AdvertiseTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/AdvertiseTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/AdvertiseTransaction.h
 ../../Headers/transactions/BidTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/BidTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/BidTransaction.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/services/SignInService.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/SignInService.cpp
 ../../Headers/services/SignInService.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/services/SignInService.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/SignInService.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/transactions/AccountCreatedTransaction.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AccountCreatedTransaction.cpp
 ../../Headers/transactions/AccountCreatedTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/AccountCreatedTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/AccountCreatedTransaction.h
 utility
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/transactions/AccountDeletedTransaction.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AccountDeletedTransaction.cpp
 ../../Headers/transactions/AccountDeletedTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/AccountDeletedTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/AccountDeletedTransaction.h
 utility
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/transactions/AdvertiseTransaction.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AdvertiseTransaction.cpp
 ../../Headers/transactions/AdvertiseTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/AdvertiseTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/AdvertiseTransaction.h
 utility
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/transactions/BidTransaction.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/BidTransaction.cpp
 ../../Headers/transactions/BidTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/BidTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/BidTransaction.h
 utility
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/transactions/CreditAddedTransaction.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/CreditAddedTransaction.cpp
 ../../Headers/transactions/CreditAddedTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/CreditAddedTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/CreditAddedTransaction.h
 utility
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/transactions/RefundTransaction.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/RefundTransaction.cpp
 ../../Headers/transactions/RefundTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/RefundTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/RefundTransaction.h
 utility
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/transactions/SessionEndTransaction.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/SessionEndTransaction.cpp
 ../../Headers/transactions/SessionEndTransaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/SessionEndTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/SessionEndTransaction.h
 utility
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Classes/transactions/Transaction.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/Transaction.cpp
 ../../Headers/transactions/Transaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/Transaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/Transaction.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Account.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Account.h
 accounttypes/AccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/AccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/AccountType.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/AccountDatabase.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/AccountDatabase.h
 iostream
 -
 fstream
@@ -174,15 +174,15 @@ fstream
 vector
 -
 Account.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Account.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Account.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Authenticator.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Authenticator.h
 SessionHandler.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/SessionHandler.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/SessionHandler.h
 AccountDatabase.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/AccountDatabase.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/AccountDatabase.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/IOHelper.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/IOHelper.h
 string
 -
 sstream
@@ -190,13 +190,13 @@ sstream
 iostream
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Item.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Item.h
 string
 -
 fstream
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/ItemDatabase.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/ItemDatabase.h
 vector
 -
 istream
@@ -204,129 +204,129 @@ istream
 fstream
 -
 Item.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Item.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Item.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/SessionHandler.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/SessionHandler.h
 vector
 -
 Account.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Account.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Account.h
 transactions/Transaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/Transaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/Transaction.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/AccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/AccountType.h
 iostream
 -
 fstream
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/AdminAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/AdminAccountType.h
 AccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/AccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/AccountType.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/BuyStandardAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/BuyStandardAccountType.h
 AccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/AccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/AccountType.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/FullStandardAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/FullStandardAccountType.h
 AccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/AccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/AccountType.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/SellStandardAccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/SellStandardAccountType.h
 AccountType.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/accounttypes/AccountType.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/AccountType.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/services/AccountsService.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/AccountsService.h
 ../AccountDatabase.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/AccountDatabase.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/AccountDatabase.h
 ../SessionHandler.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/SessionHandler.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/SessionHandler.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/services/CreditService.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/CreditService.h
 ../AccountDatabase.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/AccountDatabase.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/AccountDatabase.h
 ../SessionHandler.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/SessionHandler.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/SessionHandler.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/services/SalesService.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/SalesService.h
 ../ItemDatabase.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/ItemDatabase.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/ItemDatabase.h
 ../SessionHandler.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/SessionHandler.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/SessionHandler.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/services/SignInService.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/SignInService.h
 ../SessionHandler.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/SessionHandler.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/SessionHandler.h
 ../Authenticator.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Authenticator.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Authenticator.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/AccountCreatedTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/AccountCreatedTransaction.h
 Transaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/Transaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/Transaction.h
 ../Account.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Account.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Account.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/AccountDeletedTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/AccountDeletedTransaction.h
 Transaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/Transaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/Transaction.h
 ../Account.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Account.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Account.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/AdvertiseTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/AdvertiseTransaction.h
 Transaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/Transaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/Transaction.h
 ../Account.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Account.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Account.h
 ../Item.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Item.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Item.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/BidTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/BidTransaction.h
 Transaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/Transaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/Transaction.h
 ../Account.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Account.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Account.h
 ../Item.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Item.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Item.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/CreditAddedTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/CreditAddedTransaction.h
 Transaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/Transaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/Transaction.h
 ../Account.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Account.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Account.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/RefundTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/RefundTransaction.h
 Transaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/Transaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/Transaction.h
 ../Account.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Account.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Account.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/SessionEndTransaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/SessionEndTransaction.h
 Transaction.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/Transaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/Transaction.h
 ../Account.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/Account.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Account.h
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/transactions/Transaction.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/Transaction.h
 iostream
 -
 string
 -
 
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/main.cpp
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/main.cpp
 iostream
 -
 Headers/SessionHandler.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/SessionHandler.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/SessionHandler.h
 Headers/services/SignInService.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/services/SignInService.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/SignInService.h
 Headers/ItemDatabase.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/ItemDatabase.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/ItemDatabase.h
 Headers/AccountDatabase.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/AccountDatabase.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/AccountDatabase.h
 Headers/services/AccountsService.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/services/AccountsService.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/AccountsService.h
 Headers/services/SalesService.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/services/SalesService.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/SalesService.h
 Headers/services/CreditService.h
-/Users/yashdhume/Documents/CSCI3060/FrontEnd/Headers/services/CreditService.h
+/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/CreditService.h
 

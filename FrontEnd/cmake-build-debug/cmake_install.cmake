@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yashdhume/Documents/CSCI3060/FrontEnd
+# Install script for directory: /Users/yashdhume/Documents/CSCI3060Project/FrontEnd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/yashdhume/Documents/CSCI3060/FrontEnd/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
