@@ -5,7 +5,7 @@ import Transaction.TransactionType;
 
 public class DeleteHandler implements TransactionHandler{
     @Override
-    public int getAccountType() {
+    public TransactionType getTransactionType() {
         return TransactionType.DELETE;
     }
 

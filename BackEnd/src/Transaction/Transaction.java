@@ -1,13 +1,13 @@
 package Transaction;
 
 public class Transaction {
-    private int transactionType;
+    private TransactionType transactionType;
 
-    public int getTransactionType() {
+    public TransactionType getTransactionType() {
         return transactionType;
     }
 
-    public Transaction(int transactionType) {
+    public Transaction(TransactionType transactionType) {
         this.transactionType = transactionType;
     }
 }

@@ -5,7 +5,7 @@ import Transaction.TransactionType;
 
 public class CreateHandler implements TransactionHandler{
     @Override
-    public int getAccountType() {
+    public TransactionType getTransactionType() {
         return TransactionType.CREATE;
     }
 

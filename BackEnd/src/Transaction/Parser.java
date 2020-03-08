@@ -1,5 +1,6 @@
 package Transaction;
 
-public interface Parser<ParserObject> {
-    public void parser();
+public interface Parser {
+
+    public Transaction parser();
 }

@@ -3,10 +3,10 @@ package TransactionHandlers;
 import Transaction.Transaction;
 import Transaction.TransactionType;
 
-public class AdvertiseHandler implements TransactionHandler{
+public class AdvertiseHandler extends BasicHandler{
     @Override
-    public int getAccountType() {
-        return TransactionType.ADD_CREDIT;
+    public TransactionType getTransactionType() {
+        return TransactionType.ADVERTISE;
     }
 
     @Override
@@ -16,6 +16,12 @@ public class AdvertiseHandler implements TransactionHandler{
 
     @Override
     public boolean transactionChecker(Transaction transaction) {
+        if(!checkType(transaction)){ return false; }
+
+        /*
+
+         */
+
         return false;
     }
 }

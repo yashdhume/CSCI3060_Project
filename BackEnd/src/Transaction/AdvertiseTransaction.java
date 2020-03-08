@@ -7,8 +7,8 @@ public class AdvertiseTransaction extends Transaction {
     private int daysLeft;
     private int minimumBid;
 
-    public AdvertiseTransaction(int transactionType, String itemName, String sellerUsername, String highestBidder, int daysLeft, int minimumBid) {
-        super(transactionType);
+    public AdvertiseTransaction(String itemName, String sellerUsername, String highestBidder, int daysLeft, int minimumBid) {
+        super(TransactionType.ADVERTISE);
         this.itemName = itemName;
         this.sellerUsername = sellerUsername;
         this.highestBidder = highestBidder;

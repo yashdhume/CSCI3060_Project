@@ -1,9 +1,12 @@
 package TransactionHandlers;
 
 import Transaction.Transaction;
-
+import Transaction.TransactionType;
+//Chain of responsibility
+//Array of handlers with all false except for the correct handler
 public interface TransactionHandler {
-    int getAccountType();
+
+    TransactionType getTransactionType();
     String getName();
     boolean transactionChecker(Transaction transaction);
 }

@@ -2,10 +2,10 @@ package Accounts;
 
 public class Account {
     private String accountName;
-    private String accountType;
+    private AccountType accountType;
     private double accountCredits;
 
-    public Account(String accountName, String accountType, double accountCredits) {
+    public Account(String accountName, AccountType accountType, double accountCredits) {
         this.accountName = accountName;
         this.accountType = accountType;
         this.accountCredits = accountCredits;
@@ -16,7 +16,7 @@ public class Account {
     }
 
 
-    public String getAccountType() {
+    public AccountType getAccountType() {
         return accountType;
     }
 

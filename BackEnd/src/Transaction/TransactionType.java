@@ -1,12 +1,15 @@
 package Transaction;
 
-public class TransactionType {
-    public static final int LOGOUT = 0;
-    public static final int CREATE = 1;
-    public static final int DELETE = 2;
-    public static final int ADVERTISE = 3;
-    public static final int BID = 4;
-    public static final int REFUND = 5;
-    public static final int ADD_CREDIT = 6;
-    public static final int LOGIN = 10;
+public enum TransactionType {
+    LOGOUT("00"),
+    CREATE("01"),
+    DELETE("02"),
+    ADVERTISE("03"),
+    BID("04"),
+    REFUND("05"),
+    ADD_CREDIT("06");
+    String id;
+    TransactionType(String id) {
+        this.id = id;
+    }
 }

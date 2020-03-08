@@ -1,10 +1,10 @@
 package Transaction;
 
-public class AdvertiseTransactionParser  implements Parser<AdvertiseTransaction> {
+public class AdvertiseTransactionParser  implements Parser {
 
 
     @Override
-    public void parser() {
-
+    public AdvertiseTransaction parser() {
+        return null;
     }
 }

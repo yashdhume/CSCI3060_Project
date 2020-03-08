@@ -6,7 +6,7 @@ import Transaction.TransactionType;
 public class AddCreditHandler implements TransactionHandler{
 
     @Override
-    public int getAccountType() {
+    public TransactionType getTransactionType() {
         return TransactionType.ADD_CREDIT;
     }
 
@@ -17,7 +17,10 @@ public class AddCreditHandler implements TransactionHandler{
 
     @Override
     public boolean transactionChecker(Transaction transaction) {
-        return false;
+        if(transaction.getTransactionType()!=getTransactionType()){
+            return false;
+        }
+        return true;
     }
 
 }
