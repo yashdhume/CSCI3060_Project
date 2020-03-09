@@ -3,15 +3,15 @@ package Transaction;
 public class AdvertiseTransaction extends Transaction {
     private String itemName;
     private String sellerUsername;
-    private String highestBidder;
+    private String highestBidderUsername;
     private int daysLeft;
     private int minimumBid;
 
-    public AdvertiseTransaction(String itemName, String sellerUsername, String highestBidder, int daysLeft, int minimumBid) {
+    public AdvertiseTransaction(String itemName, String sellerUsername, String highestBidderUsername, int daysLeft, int minimumBid) {
         super(TransactionType.ADVERTISE);
         this.itemName = itemName;
         this.sellerUsername = sellerUsername;
-        this.highestBidder = highestBidder;
+        this.highestBidderUsername = highestBidderUsername;
         this.daysLeft = daysLeft;
         this.minimumBid = minimumBid;
     }
@@ -32,12 +32,12 @@ public class AdvertiseTransaction extends Transaction {
         this.sellerUsername = sellerUsername;
     }
 
-    public String getHighestBidder() {
-        return highestBidder;
+    public String getHighestBidderUsername() {
+        return highestBidderUsername;
     }
 
-    public void setHighestBidder(String highestBidder) {
-        this.highestBidder = highestBidder;
+    public void setHighestBidderUsername(String highestBidderUsername) {
+        this.highestBidderUsername = highestBidderUsername;
     }
 
     public int getDaysLeft() {

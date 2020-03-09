@@ -1,4 +1,4 @@
-package Accounts;
+package Account;
 
 public enum AccountType {
     FULL("FS"),
