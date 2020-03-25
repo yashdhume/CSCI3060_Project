@@ -8,5 +8,5 @@ public interface TransactionHandler {
 
     TransactionType getTransactionType();
     String getName();
-    boolean transactionChecker(Transaction transaction);
+    boolean handleTransaction(Transaction transaction);
 }

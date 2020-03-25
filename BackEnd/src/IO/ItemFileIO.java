@@ -47,12 +47,13 @@ public class ItemFileIO extends FileIO {
         }
 
     }
-//    public void closeFile() throws IOException{
-//        openOutputStream();
-//        /*
-//
-//
-//         */
-//        closeOutputStream();
-//    }
+
+    public Item getItemByUserAndItemName(String sellerName, String itemName){
+        for (Item item : items){
+            if(item.getSellerUserName().equals(sellerName)&& item.getItemName().equals(itemName)) {
+                return item;
+            }
+        }return null;
+    }
+
 }
