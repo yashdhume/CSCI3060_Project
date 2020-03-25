@@ -1,10 +1,7 @@
 package IO;
 
-import Account.Account;
 import Item.Item;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class ItemFileIO extends FileIO {
@@ -33,18 +30,9 @@ public class ItemFileIO extends FileIO {
 
         //IIIIIIIIIIIIIIIIIII_SSSSSSSSSSSSSSS_UUUUUUUUUUUUUUU_111_111111
         //                    SSSSSSSSSSSSSSS_UUUUUUUUUUUUUUU
-        String itemName;
-        String sellerUsername;
-        String winBidUsername;
-        int numOfDays;
-        double currHighestBid;
         for(String line: lines){
-            itemName = line.substring(0,19);
-            sellerUsername = line.substring(20,35);
-            winBidUsername = line.substring(36,51);
-            numOfDays = Integer.parseInt(line.substring(52,55));
-            currHighestBid = Double.parseDouble(line.substring(56));
-            addItems(new Item(itemName, sellerUsername, winBidUsername, numOfDays, currHighestBid));
+            ItemFileParser itemFileParser = new ItemFileParser(line);
+            addItems(new Item(itemFileParser.getItemName(), itemFileParser.getSellerUserName(), itemFileParser.getHighestBidderUserName(), itemFileParser.getNumberOfDays(), itemFileParser.getCurrentHighestBid()));
         }
 
     }

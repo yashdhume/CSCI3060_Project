@@ -1,9 +1,9 @@
-package StringManipulation;
+package Utilities;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
-public class StringJustifies {
+public class StringManipulation {
     //adds spaces to the left of a string to make it a certain length
     String leftJustify(String str, char filler, int length){
       return"";
@@ -15,7 +15,7 @@ public class StringJustifies {
     }
 
     //Returns a character with 15 characters for username format
-    public String usernameFormated(String username){
+    public String usernameFormatted(String username){
         return formatString(username, 15);
     }
 
@@ -30,25 +30,25 @@ public class StringJustifies {
     }
 
     //Returns a character with 19 characters for username format
-    public String itemNameFormated(String itemName){
+    public String itemNameFormatted(String itemName){
         return formatString(itemName, 19);
     }
 
     //Formats available credit to 9 digits
-    public String availableCreditFormated(double money){
+    public String availableCreditFormatted(double money){
         NumberFormat formatter = new DecimalFormat("#000000.00");
-        return formatter.format(money).toString();
+        return formatter.format(money);
     }
 
     //Formats newbid to 6 digits
-    public String newBidFormated(double money){
+    public String newBidFormatted(double money){
         NumberFormat formatter = new DecimalFormat("#000.00");
-        return formatter.format(money).toString();
+        return formatter.format(money);
     }
 
-    public String numOfDaysFormated(int days){
+    public String numOfDaysFormatted(int days){
         NumberFormat formatter = new DecimalFormat("#000");
-        return formatter.format(days).toString();
+        return formatter.format(days);
     }
 
 }

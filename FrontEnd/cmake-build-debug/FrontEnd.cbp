@@ -8,223 +8,223 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug"/>
+				<Option working_dir="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug"/>
+				<Option working_dir="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug"/>
+				<Option working_dir="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FrontEnd">
-				<Option output="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/FrontEnd" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug"/>
+				<Option output="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/FrontEnd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 FrontEnd"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 FrontEnd"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FrontEnd/fast">
-				<Option output="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/FrontEnd" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug"/>
+				<Option output="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/FrontEnd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 FrontEnd/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 FrontEnd/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Account.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/Account.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/AccountDatabase.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/AccountDatabase.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Authenticator.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/Authenticator.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Item.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/Item.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/ItemDatabase.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/ItemDatabase.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/SessionHandler.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/SessionHandler.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/AccountType.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/AccountType.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/AdminAccountType.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/AdminAccountType.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/BuyStandardAccountType.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/BuyStandardAccountType.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/FullStandardAccountType.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/FullStandardAccountType.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/SellStandardAccountType.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/SellStandardAccountType.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/AccountsService.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/AccountsService.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/CreditService.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/CreditService.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/SalesService.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/SalesService.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/SignInService.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/SignInService.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AccountCreatedTransaction.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/AccountCreatedTransaction.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AccountDeletedTransaction.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/AccountDeletedTransaction.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AdvertiseTransaction.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/AdvertiseTransaction.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/BidTransaction.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/BidTransaction.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/CreditAddedTransaction.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/CreditAddedTransaction.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/RefundTransaction.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/RefundTransaction.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/SessionEndTransaction.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/SessionEndTransaction.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/Transaction.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/Transaction.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Account.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/Account.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/AccountDatabase.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/AccountDatabase.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Authenticator.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/Authenticator.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/IOHelper.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/IOHelper.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/Item.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/Item.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/ItemDatabase.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/ItemDatabase.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/SessionHandler.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/SessionHandler.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/AccountType.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/accounttypes/AccountType.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/AdminAccountType.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/accounttypes/AdminAccountType.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/BuyStandardAccountType.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/accounttypes/BuyStandardAccountType.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/FullStandardAccountType.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/accounttypes/FullStandardAccountType.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/accounttypes/SellStandardAccountType.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/accounttypes/SellStandardAccountType.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/AccountsService.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/services/AccountsService.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/CreditService.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/services/CreditService.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/SalesService.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/services/SalesService.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/services/SignInService.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/services/SignInService.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/AccountCreatedTransaction.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/transactions/AccountCreatedTransaction.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/AccountDeletedTransaction.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/transactions/AccountDeletedTransaction.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/AdvertiseTransaction.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/transactions/AdvertiseTransaction.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/BidTransaction.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/transactions/BidTransaction.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/CreditAddedTransaction.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/transactions/CreditAddedTransaction.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/RefundTransaction.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/transactions/RefundTransaction.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/SessionEndTransaction.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/transactions/SessionEndTransaction.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Headers/transactions/Transaction.h">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Headers/transactions/Transaction.h">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/main.cpp">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/main.cpp">
 			<Option target="FrontEnd"/>
 		</Unit>
-		<Unit filename="/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/CMakeLists.txt">
+		<Unit filename="/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

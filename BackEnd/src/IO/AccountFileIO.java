@@ -2,7 +2,6 @@ package IO;
 
 import Account.*;
 
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class AccountFileIO extends FileIO {
@@ -21,7 +20,7 @@ public class AccountFileIO extends FileIO {
         return accounts;
     }
 
-    public void addAccounts(Account account) {
+    public void addAccount(Account account) {
         accounts.add(account);
     }
 
@@ -34,23 +33,11 @@ public class AccountFileIO extends FileIO {
      */
     public void fetchAccountsFromFile() {
         ArrayList<String> lines = this.readLines();
-        String username;
-        AccountType atype;
-        double credit;
         //For each line add account
         //UUUUUUUUUUUUUUU_TT_CCCCCCCCC
         for (String line : lines) {
-            username = line.substring(0, 15);
-            atype = AccountType.BUY;
-            if (line.substring(16, 18).equals(AccountType.FULL.getAccountTypeCode())) {
-                atype = AccountType.FULL;
-            } else if (line.substring(16, 18).equals(AccountType.SELL.getAccountTypeCode())) {
-                atype = AccountType.SELL;
-            } else if (line.substring(16, 18).equals(AccountType.ADMIN.getAccountTypeCode())) {
-                atype = AccountType.ADMIN;
-            }
-            credit = Double.parseDouble(line.substring(19));
-            addAccounts(new Account(username, atype, credit));
+            AccountFileParser accountFileParser= new AccountFileParser(line);
+            addAccount(new Account(accountFileParser.getAccountName(), accountFileParser.getAccountType(), accountFileParser.getAccountCredits()));
         }
     }
 

@@ -43,10 +43,10 @@ RM = "/Users/yashdhume/Library/Application Support/JetBrains/Toolbox/apps/CLion/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yashdhume/Documents/CSCI3060Project/FrontEnd
+CMAKE_SOURCE_DIR = /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FrontEnd.dir/depend.make
@@ -59,315 +59,315 @@ include CMakeFiles/FrontEnd.dir/flags.make
 
 CMakeFiles/FrontEnd.dir/main.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FrontEnd.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/main.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FrontEnd.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/main.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/main.cpp
 
 CMakeFiles/FrontEnd.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/main.cpp > CMakeFiles/FrontEnd.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/main.cpp > CMakeFiles/FrontEnd.dir/main.cpp.i
 
 CMakeFiles/FrontEnd.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/main.cpp -o CMakeFiles/FrontEnd.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/main.cpp -o CMakeFiles/FrontEnd.dir/main.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.o: ../Classes/Authenticator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Authenticator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/Authenticator.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Authenticator.cpp > CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/Authenticator.cpp > CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Authenticator.cpp -o CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/Authenticator.cpp -o CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.o: ../Classes/SessionHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/SessionHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/SessionHandler.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/SessionHandler.cpp > CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/SessionHandler.cpp > CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/SessionHandler.cpp -o CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/SessionHandler.cpp -o CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/Account.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/Account.cpp.o: ../Classes/Account.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/Account.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/Account.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/Account.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/Account.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/Account.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/Account.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/Account.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Account.cpp > CMakeFiles/FrontEnd.dir/Classes/Account.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/Account.cpp > CMakeFiles/FrontEnd.dir/Classes/Account.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/Account.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/Account.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Account.cpp -o CMakeFiles/FrontEnd.dir/Classes/Account.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/Account.cpp -o CMakeFiles/FrontEnd.dir/Classes/Account.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.o: ../Classes/accounttypes/AccountType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/AccountType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/AccountType.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/AccountType.cpp > CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/AccountType.cpp > CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/AccountType.cpp -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/AccountType.cpp -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.o: ../Classes/transactions/Transaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/Transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/Transaction.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/Transaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/Transaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/Transaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/Transaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.o: ../Classes/accounttypes/BuyStandardAccountType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/BuyStandardAccountType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/BuyStandardAccountType.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/BuyStandardAccountType.cpp > CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/BuyStandardAccountType.cpp > CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/BuyStandardAccountType.cpp -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/BuyStandardAccountType.cpp -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.o: ../Classes/accounttypes/SellStandardAccountType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/SellStandardAccountType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/SellStandardAccountType.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/SellStandardAccountType.cpp > CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/SellStandardAccountType.cpp > CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/SellStandardAccountType.cpp -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/SellStandardAccountType.cpp -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.o: ../Classes/accounttypes/FullStandardAccountType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/FullStandardAccountType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/FullStandardAccountType.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/FullStandardAccountType.cpp > CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/FullStandardAccountType.cpp > CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/FullStandardAccountType.cpp -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/FullStandardAccountType.cpp -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.o: ../Classes/accounttypes/AdminAccountType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/AdminAccountType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/AdminAccountType.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/AdminAccountType.cpp > CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/AdminAccountType.cpp > CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/accounttypes/AdminAccountType.cpp -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/accounttypes/AdminAccountType.cpp -o CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/Item.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/Item.cpp.o: ../Classes/Item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/Item.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/Item.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/Item.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/Item.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/Item.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/Item.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/Item.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Item.cpp > CMakeFiles/FrontEnd.dir/Classes/Item.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/Item.cpp > CMakeFiles/FrontEnd.dir/Classes/Item.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/Item.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/Item.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/Item.cpp -o CMakeFiles/FrontEnd.dir/Classes/Item.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/Item.cpp -o CMakeFiles/FrontEnd.dir/Classes/Item.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.o: ../Classes/services/SignInService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/SignInService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/SignInService.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/SignInService.cpp > CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/SignInService.cpp > CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/SignInService.cpp -o CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/SignInService.cpp -o CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.o: ../Classes/ItemDatabase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/ItemDatabase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/ItemDatabase.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/ItemDatabase.cpp > CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/ItemDatabase.cpp > CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/ItemDatabase.cpp -o CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/ItemDatabase.cpp -o CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.o: ../Classes/AccountDatabase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/AccountDatabase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/AccountDatabase.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/AccountDatabase.cpp > CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/AccountDatabase.cpp > CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/AccountDatabase.cpp -o CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/AccountDatabase.cpp -o CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.o: ../Classes/services/AccountsService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/AccountsService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/AccountsService.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/AccountsService.cpp > CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/AccountsService.cpp > CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/AccountsService.cpp -o CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/AccountsService.cpp -o CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.o: ../Classes/transactions/AccountCreatedTransaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AccountCreatedTransaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/AccountCreatedTransaction.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AccountCreatedTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/AccountCreatedTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AccountCreatedTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/AccountCreatedTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.o: ../Classes/transactions/AccountDeletedTransaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AccountDeletedTransaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/AccountDeletedTransaction.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AccountDeletedTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/AccountDeletedTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AccountDeletedTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/AccountDeletedTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.o: ../Classes/transactions/CreditAddedTransaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/CreditAddedTransaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/CreditAddedTransaction.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/CreditAddedTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/CreditAddedTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/CreditAddedTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/CreditAddedTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.o: ../Classes/transactions/SessionEndTransaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/SessionEndTransaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/SessionEndTransaction.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/SessionEndTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/SessionEndTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/SessionEndTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/SessionEndTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.o: ../Classes/transactions/RefundTransaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/RefundTransaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/RefundTransaction.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/RefundTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/RefundTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/RefundTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/RefundTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.o: ../Classes/transactions/AdvertiseTransaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AdvertiseTransaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/AdvertiseTransaction.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AdvertiseTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/AdvertiseTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/AdvertiseTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/AdvertiseTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.o: ../Classes/transactions/BidTransaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/BidTransaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/BidTransaction.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/BidTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/BidTransaction.cpp > CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/transactions/BidTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/transactions/BidTransaction.cpp -o CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.o: ../Classes/services/SalesService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/SalesService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/SalesService.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/SalesService.cpp > CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/SalesService.cpp > CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/SalesService.cpp -o CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/SalesService.cpp -o CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.s
 
 CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.o: CMakeFiles/FrontEnd.dir/flags.make
 CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.o: ../Classes/services/CreditService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.o -c /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/CreditService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.o -c /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/CreditService.cpp
 
 CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/CreditService.cpp > CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/CreditService.cpp > CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.i
 
 CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/Classes/services/CreditService.cpp -o CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/Classes/services/CreditService.cpp -o CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.s
 
 # Object files for target FrontEnd
 FrontEnd_OBJECTS = \
@@ -425,7 +425,7 @@ FrontEnd: CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.o
 FrontEnd: CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.o
 FrontEnd: CMakeFiles/FrontEnd.dir/build.make
 FrontEnd: CMakeFiles/FrontEnd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable FrontEnd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable FrontEnd"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FrontEnd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -438,6 +438,6 @@ CMakeFiles/FrontEnd.dir/clean:
 .PHONY : CMakeFiles/FrontEnd.dir/clean
 
 CMakeFiles/FrontEnd.dir/depend:
-	cd /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yashdhume/Documents/CSCI3060Project/FrontEnd /Users/yashdhume/Documents/CSCI3060Project/FrontEnd /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug /Users/yashdhume/Documents/CSCI3060Project/FrontEnd/cmake-build-debug/CMakeFiles/FrontEnd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug /Users/yashdhume/Documents/CSCI3060_Project/FrontEnd/cmake-build-debug/CMakeFiles/FrontEnd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FrontEnd.dir/depend
 

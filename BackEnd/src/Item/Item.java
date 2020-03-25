@@ -1,6 +1,6 @@
 package Item;
 
-import StringManipulation.StringJustifies;
+import Utilities.StringManipulation;
 
 public class Item {
     private String itemName;
@@ -96,11 +96,11 @@ public class Item {
     }
 
     public String formatedString(){
-        StringJustifies sj = new StringJustifies();
-        return sj.itemNameFormated(itemName) + " " +
-                sj.usernameFormated(sellerUserName) + " " +
-                sj.usernameFormated(highestBidderUserName) + " " +
-                sj.numOfDaysFormated(daysLeft) + " " +
-                sj.newBidFormated(currentHighestBid);
+        StringManipulation sj = new StringManipulation();
+        return sj.itemNameFormatted(itemName) + " " +
+                sj.usernameFormatted(sellerUserName) + " " +
+                sj.usernameFormatted(highestBidderUserName) + " " +
+                sj.numOfDaysFormatted(daysLeft) + " " +
+                sj.newBidFormatted(currentHighestBid);
     }
 }
