@@ -10,11 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2587cb2-5b85-4dc6-b16f-e7a1e051f4c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackEnd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IO/AccountFileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/AccountFileIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IO/FileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/FileIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO/ItemFileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/ItemFileIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1YdIABMZwBjNPrU2FWI5hHHTYPI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -100,7 +100,7 @@
       <workItem from="1583702682506" duration="1210000" />
       <workItem from="1583875637047" duration="7826000" />
       <workItem from="1585095177680" duration="218000" />
-      <workItem from="1585095420284" duration="3590000" />
+      <workItem from="1585095420284" duration="4890000" />
     </task>
     <task id="LOCAL-00001" summary="Started implementing skeleton from the UML">
       <created>1583701630975</created>
@@ -155,26 +155,26 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="396" y="129" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1583708570353" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585099223208">
+    <state width="1493" height="318" key="GridCell.Tab.0.bottom" timestamp="1585100520425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583266048226" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/1920.273.1280.750/0.0.1536.824@0.0.1536.824" timestamp="1585099223208" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585099223207">
+    <state width="1493" height="318" key="GridCell.Tab.0.bottom/1920.273.1280.750/0.0.1536.824@0.0.1536.824" timestamp="1585100520425" />
+    <state width="1493" height="318" key="GridCell.Tab.0.center" timestamp="1585100520425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583266048225" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/1920.273.1280.750/0.0.1536.824@0.0.1536.824" timestamp="1585099223207" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585099223207">
+    <state width="1493" height="318" key="GridCell.Tab.0.center/1920.273.1280.750/0.0.1536.824@0.0.1536.824" timestamp="1585100520425" />
+    <state width="1493" height="318" key="GridCell.Tab.0.left" timestamp="1585100520425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583266048225" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/1920.273.1280.750/0.0.1536.824@0.0.1536.824" timestamp="1585099223207" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585099223207">
+    <state width="1493" height="318" key="GridCell.Tab.0.left/1920.273.1280.750/0.0.1536.824@0.0.1536.824" timestamp="1585100520425" />
+    <state width="1493" height="318" key="GridCell.Tab.0.right" timestamp="1585100520425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583266048225" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/1920.273.1280.750/0.0.1536.824@0.0.1536.824" timestamp="1585099223207" />
+    <state width="1493" height="318" key="GridCell.Tab.0.right/1920.273.1280.750/0.0.1536.824@0.0.1536.824" timestamp="1585100520425" />
     <state x="0" y="0" width="1351" height="932" key="SettingsEditor" timestamp="1585095359962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -193,9 +193,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="463" y="10" width="609" height="804" key="find.popup/1920.273.1280.750/0.0.1536.824@0.0.1536.824" timestamp="1585095990821" />
-    <state x="504" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1583777959301">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="461" y="178" width="672" height="543" key="search.everywhere.popup" timestamp="1585099870647">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="504" y="245" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1583777959301" />
+    <state x="461" y="178" width="672" height="543" key="search.everywhere.popup/1920.273.1280.750/0.0.1536.824@0.0.1536.824" timestamp="1585099870647" />
   </component>
 </project>

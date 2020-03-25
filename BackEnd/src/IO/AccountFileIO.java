@@ -22,19 +22,19 @@ class AccountFileIO extends FileIO {
         accounts.remove(account);
     }
     public void openFile() throws IOException {
-        openInputStream();
-        /*
-
-
-         */
-        closeInputStream();
+//        openInputStream();
+//        /*
+//
+//
+//         */
+//        closeInputStream();
     }
-    public void closeFile() throws IOException{
-        openOutputStream();
-        /*
-
-
-         */
-        closeOutputStream();
-    }
+//    public void closeFile() throws IOException{
+//        openOutputStream();
+//        /*
+//
+//
+//         */
+//        closeOutputStream();
+//    }
 }

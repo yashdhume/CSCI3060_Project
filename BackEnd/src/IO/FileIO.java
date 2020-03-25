@@ -41,8 +41,8 @@ public class FileIO {
      */
     public void writeLine(String line) {
         try {
-            this.openInputStream();
-            outputStream.write(line.getBytes());
+            this.openOutputStream();
+            outputStream.write((line + '\n').getBytes());
             this.closeOutputStream();
         } catch (FileNotFoundException e) {
             System.out.println("File not found: " + e.toString());
@@ -52,10 +52,20 @@ public class FileIO {
     }
 
     public void writeLines(ArrayList<String> lines) {
-        for (String line : lines) {
-            writeLine(line);
+        try {
+            this.openOutputStream();
+
+            for (String line : lines) {
+                outputStream.write((line + '\n').getBytes());
+            }
+            outputStream.write("END".getBytes());
+
+            this.closeOutputStream();
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found: " + e.toString());
+        } catch (IOException e) {
+            System.out.println("Writing Line error: " + e.toString());
         }
-        writeLine("END");
     }
 
     /**
