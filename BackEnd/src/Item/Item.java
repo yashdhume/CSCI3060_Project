@@ -5,6 +5,7 @@ public class Item {
     private String sellerUserName;
     private String highestBidderUserName;
     private int daysLeft;
+    private double currentHighestBid;
     private double minimumBid;
     private boolean newItemName;
 
@@ -15,6 +16,22 @@ public class Item {
         this.daysLeft = daysLeft;
         this.minimumBid = minimumBid;
         this.newItemName = newItemName;
+    }
+
+    public Item(String itemName, String sellerUserName, String highestBidderUserName, int daysLeft, double currentHighestBid){
+        this.itemName = itemName;
+        this.sellerUserName = sellerUserName;
+        this.highestBidderUserName = highestBidderUserName;
+        this.daysLeft = daysLeft;
+        this.currentHighestBid = currentHighestBid;
+    }
+
+    public double getCurrentHighestBid() {
+        return currentHighestBid;
+    }
+
+    public void setCurrentHighestBid(double currentHighestBid) {
+        this.currentHighestBid = currentHighestBid;
     }
 
     public String getItemName() {
@@ -65,5 +82,14 @@ public class Item {
         this.newItemName = newItemName;
     }
 
-
+    @Override
+    public String toString() {
+        return "Item{" +
+                "itemName='" + itemName + '\'' +
+                ", sellerUserName='" + sellerUserName + '\'' +
+                ", highestBidderUserName='" + highestBidderUserName + '\'' +
+                ", daysLeft=" + daysLeft +
+                ", currentHighestBid=" + currentHighestBid +
+                '}';
+    }
 }

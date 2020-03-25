@@ -13,32 +13,46 @@ public class ItemFileIO extends FileIO {
         super(fileName);
         items = new ArrayList<>();
     }
+
     public ArrayList<Item> getItems() {
+        fetchAccountsFromFile();
         return items;
     }
 
-    public void addItems(Item item){
+    public void addItems(Item item) {
         items.add(item);
     }
 
-    public void removeItem(Item item){
+    public void removeItem(Item item) {
         items.remove(item);
     }
 
-    public void openFile() throws IOException {
-        openInputStream();
-        /*
+    public void fetchAccountsFromFile(){
+        ArrayList<String> lines = this.readLines();
 
+        //IIIIIIIIIIIIIIIIIII_SSSSSSSSSSSSSSS_UUUUUUUUUUUUUUU_111_111111
+        //                    SSSSSSSSSSSSSSS_UUUUUUUUUUUUUUU
+        String itemName;
+        String sellerUsername;
+        String winBidUsername;
+        int numOfDays;
+        double currHighestBid;
+        for(String line: lines){
+            itemName = line.substring(0,19);
+            sellerUsername = line.substring(20,35);
+            winBidUsername = line.substring(36,51);
+            numOfDays = Integer.parseInt(line.substring(52,55));
+            currHighestBid = Double.parseDouble(line.substring(56));
+            addItems(new Item(itemName, sellerUsername, winBidUsername, numOfDays, currHighestBid));
+        }
 
-         */
-        closeInputStream();
     }
-    public void closeFile() throws IOException{
-        openOutputStream();
-        /*
-
-
-         */
-        closeOutputStream();
-    }
+//    public void closeFile() throws IOException{
+//        openOutputStream();
+//        /*
+//
+//
+//         */
+//        closeOutputStream();
+//    }
 }

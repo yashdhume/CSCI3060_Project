@@ -1,1 +1,4 @@
 /BackEnd/out/
+*.class
+*.xml
+/BackEnd/.idea/
