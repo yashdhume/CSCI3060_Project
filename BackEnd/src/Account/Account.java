@@ -27,4 +27,13 @@ public class Account {
     public void setAccountCredits(double accountCredits) {
         this.accountCredits = accountCredits;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "accountName='" + accountName + '\'' +
+                ", accountType=" + accountType +
+                ", accountCredits=" + accountCredits +
+                '}';
+    }
 }

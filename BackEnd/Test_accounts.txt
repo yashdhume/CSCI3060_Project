@@ -1,6 +1,6 @@
-user1           BS 19280    
-user11          AA 0        
-userbs          BS 200      
-admin1          AA 200      
-userss          SS 200      
+user1         9_BS_19280
+user11          AA 0
+userbs          BS 200
+admin1          AA 200
+userss          SS 200
 END                         
