@@ -16,12 +16,15 @@ public class ItemFileIO extends FileIO {
     public ArrayList<Item> getItems() {
         return items;
     }
+
     public void addItems(Item item){
         items.add(item);
     }
+
     public void removeItem(Item item){
         items.remove(item);
     }
+
     public void openFile() throws IOException {
         openInputStream();
         /*
