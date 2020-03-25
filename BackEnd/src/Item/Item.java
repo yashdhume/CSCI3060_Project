@@ -1,5 +1,7 @@
 package Item;
 
+import StringManipulation.StringJustifies;
+
 public class Item {
     private String itemName;
     private String sellerUserName;
@@ -91,5 +93,14 @@ public class Item {
                 ", daysLeft=" + daysLeft +
                 ", currentHighestBid=" + currentHighestBid +
                 '}';
+    }
+
+    public String formatedString(){
+        StringJustifies sj = new StringJustifies();
+        return sj.itemNameFormated(itemName) + " " +
+                sj.usernameFormated(sellerUserName) + " " +
+                sj.usernameFormated(highestBidderUserName) + " " +
+                sj.numOfDaysFormated(daysLeft) + " " +
+                sj.newBidFormated(currentHighestBid);
     }
 }

@@ -1,5 +1,6 @@
 package IO;
 
+import Account.Account;
 import Item.Item;
 
 import java.io.FileNotFoundException;
@@ -54,6 +55,15 @@ public class ItemFileIO extends FileIO {
                 return item;
             }
         }return null;
+    }
+
+    //Writes to file in an Item file
+    public void writeToFile(){
+        ArrayList<String> lines = new ArrayList<>();
+        for(Item item: items){
+            lines.add(item.formatedString());
+        }
+        this.writeLines(lines);
     }
 
 }

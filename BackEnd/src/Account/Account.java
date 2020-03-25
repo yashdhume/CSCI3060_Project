@@ -1,5 +1,7 @@
 package Account;
 
+import StringManipulation.StringJustifies;
+
 public class Account {
     private String accountName;
     private AccountType accountType;
@@ -35,5 +37,14 @@ public class Account {
                 ", accountType=" + accountType +
                 ", accountCredits=" + accountCredits +
                 '}';
+    }
+
+    /**
+     * This function returns the Account String formated for Accounts file.
+     * */
+    public String formatedString(){
+        StringJustifies sj = new StringJustifies();
+        return sj.usernameFormated(accountName) + " " +
+                accountType.accountTypeCode + " " + sj.availableCreditFormated(accountCredits);
     }
 }

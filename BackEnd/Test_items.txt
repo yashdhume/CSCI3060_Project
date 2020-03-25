@@ -1,7 +1,7 @@
-IIIIIIIIIIIIIIIIIII_SSSSSSSSSSSSSSS_UUUUUUUUUUUUUUU_111_111111
-item1               seller1         admin1          056 000041
-item2               user10                          023 000544
-item3               user1                           010 184933
+IIIIIIIIIIIIIIIIIII_SSSSSSSSSSSSSSS_UUUUUUUUUUUUUUU_111_111.11
+item1               seller1         admin1          056 000.41
+item2               user10                          023 000.44
+item3               user1                           010 000033
 item4               user2           user10          998 000002
 cat                 user2                           023 000050
 catastrophic        user2                           000 000000

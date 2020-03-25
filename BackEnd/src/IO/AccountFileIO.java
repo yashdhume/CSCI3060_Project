@@ -63,6 +63,15 @@ public class AccountFileIO extends FileIO {
         return null;
     }
 
+    //Writes to file in an Account file
+    public void writeToFile(){
+        ArrayList<String> lines = new ArrayList<>();
+        for(Account acc: accounts){
+            lines.add(acc.formatedString());
+        }
+        this.writeLines(lines);
+    }
+
 //    public void closeFile() throws IOException{
 //        openOutputStream();
 //        /*

@@ -46,4 +46,9 @@ public class StringJustifies {
         return formatter.format(money).toString();
     }
 
+    public String numOfDaysFormated(int days){
+        NumberFormat formatter = new DecimalFormat("#000");
+        return formatter.format(days).toString();
+    }
+
 }
