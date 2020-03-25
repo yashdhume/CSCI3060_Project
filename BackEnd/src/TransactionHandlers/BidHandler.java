@@ -29,10 +29,12 @@ public class BidHandler extends BasicHandler {
 
     @Override
     public boolean handleTransaction(Transaction transaction) {
-        if(!checkType(transaction)){ return false; }
+        if(!checkType(transaction)) return false;
         BidTransaction bidTransaction = (BidTransaction)transaction;
         Account buyerAccount = accountFileIO.getAccountByName(bidTransaction.getBuyerUserName());
+        if(buyerAccount==null) return false;
         Item item = itemFileIO.getItemByUserAndItemName(bidTransaction.getSellerUserName(), bidTransaction.getItemName());
+        if (item==null) return false;
         item.setHighestBidderUserName(buyerAccount.getAccountName());
         item.setMinimumBid(bidTransaction.getNewBid());
         buyerAccount.setAccountCredits(buyerAccount.getAccountCredits()-bidTransaction.getNewBid());

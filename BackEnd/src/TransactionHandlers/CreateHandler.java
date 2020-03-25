@@ -1,9 +1,13 @@
 package TransactionHandlers;
 
+import Account.Account;
+import IO.AccountFileIO;
 import Transaction.Transaction;
 import Transaction.TransactionType;
+import Transaction.CreateTransaction;
 
 public class CreateHandler extends BasicHandler{
+    private AccountFileIO accountFileIO;
     @Override
     public TransactionType getTransactionType() {
         return TransactionType.CREATE;
@@ -11,11 +15,21 @@ public class CreateHandler extends BasicHandler{
 
     @Override
     public String getName() {
-        return null;
+        return "Create";
     }
 
     @Override
     public boolean handleTransaction(Transaction transaction) {
-        return false;
+        if (!checkType(transaction)) return false;
+
+
+        CreateTransaction createTransaction = (CreateTransaction)transaction;
+
+        Account account = accountFileIO.getAccountByName((createTransaction.getAccountName()));
+        if(account!=null) return false;//already exist
+
+        account = new Account(createTransaction.getAccountName(), createTransaction.getAccountType(), createTransaction.getAccountCredits());
+        accountFileIO.addAccount(account);
+        return true;
     }
 }

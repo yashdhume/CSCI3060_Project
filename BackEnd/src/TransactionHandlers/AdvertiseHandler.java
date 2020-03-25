@@ -24,14 +24,13 @@ public class AdvertiseHandler extends BasicHandler {
 
     @Override
     public String getName() {
-        return null;
+        return "Advertise";
     }
 
     @Override
     public boolean handleTransaction(Transaction transaction) {
-        if (!checkType(transaction)) {
-            return false;
-        }
+        if (!checkType(transaction)) return false;
+
         AdvertiseTransaction advertiseTransaction = (AdvertiseTransaction) transaction;
 
         Account account = accountFileIO.getAccountByName(advertiseTransaction.getSellerUsername());

@@ -1,7 +1,7 @@
 package Transaction;
 
 public enum TransactionType {
-    LOGOUT("00"),
+    SESSION_END("00"),
     CREATE("01"),
     DELETE("02"),
     ADVERTISE("03"),
@@ -28,7 +28,7 @@ public enum TransactionType {
         } else if (transType.equals(TransactionType.ADD_CREDIT.getAccountTypeCode())) {
             return TransactionType.ADD_CREDIT;
         }else{
-            return TransactionType.LOGOUT;
+            return TransactionType.SESSION_END;
         }
     }
 
