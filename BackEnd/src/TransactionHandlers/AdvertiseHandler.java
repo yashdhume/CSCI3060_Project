@@ -27,7 +27,7 @@ public class AdvertiseHandler extends BasicHandler{
     }
 
     @Override
-    public boolean addItemTransaction(Transaction transaction) {
+    public boolean handleTransaction(Transaction transaction) {
         if(!checkType(transaction)){ return false; }
         AdvertiseTransaction advertiseTransaction = (AdvertiseTransaction)transaction;
         Account account =  accountFileIO.getAccountByName(advertiseTransaction.getSellerUsername());
