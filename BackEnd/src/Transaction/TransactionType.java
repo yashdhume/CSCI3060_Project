@@ -8,6 +8,11 @@ public enum TransactionType {
     BID("04"),
     REFUND("05"),
     ADD_CREDIT("06");
+
+    public String getId() {
+        return id;
+    }
+
     String id;
     TransactionType(String id) {
         this.id = id;

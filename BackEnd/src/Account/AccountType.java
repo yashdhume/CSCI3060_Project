@@ -5,6 +5,11 @@ public enum AccountType {
     BUY("BS"),
     SELL("SS"),
     ADMIN("AA");
+
+    public String getAccountTypeCode() {
+        return accountTypeCode;
+    }
+
     String accountTypeCode;
     AccountType(String accountTypeCode){
         this.accountTypeCode = accountTypeCode;
