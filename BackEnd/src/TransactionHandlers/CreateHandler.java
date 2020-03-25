@@ -3,7 +3,7 @@ package TransactionHandlers;
 import Transaction.Transaction;
 import Transaction.TransactionType;
 
-public class CreateHandler implements TransactionHandler{
+public class CreateHandler extends BasicHandler{
     @Override
     public TransactionType getTransactionType() {
         return TransactionType.CREATE;
@@ -15,7 +15,7 @@ public class CreateHandler implements TransactionHandler{
     }
 
     @Override
-    public boolean transactionChecker(Transaction transaction) {
+    public boolean handleTransaction(Transaction transaction) {
         return false;
     }
 }

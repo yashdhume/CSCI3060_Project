@@ -3,7 +3,7 @@ package TransactionHandlers;
 import Transaction.Transaction;
 import Transaction.TransactionType;
 
-public class BidHandler implements TransactionHandler {
+public class BidHandler extends BasicHandler {
     @Override
     public TransactionType getTransactionType() {
         return TransactionType.BID;
@@ -15,7 +15,7 @@ public class BidHandler implements TransactionHandler {
     }
 
     @Override
-    public boolean transactionChecker(Transaction transaction) {
+    public boolean handleTransaction(Transaction transaction) {
         return false;
     }
 }

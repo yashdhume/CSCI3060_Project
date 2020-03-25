@@ -3,7 +3,7 @@ package TransactionHandlers;
 import Transaction.Transaction;
 import Transaction.TransactionType;
 
-public class AddCreditHandler implements TransactionHandler{
+public class AddCreditHandler extends BasicHandler{
 
     @Override
     public TransactionType getTransactionType() {
@@ -16,10 +16,8 @@ public class AddCreditHandler implements TransactionHandler{
     }
 
     @Override
-    public boolean transactionChecker(Transaction transaction) {
-        if(transaction.getTransactionType()!=getTransactionType()){
-            return false;
-        }
+    public boolean handleTransaction(Transaction transaction) {
+
         return true;
     }
 

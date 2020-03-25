@@ -3,7 +3,7 @@ package TransactionHandlers;
 import Transaction.Transaction;
 import Transaction.TransactionType;
 
-public class LogoutHandler implements TransactionHandler {
+public class LogoutHandler extends BasicHandler {
     @Override
     public TransactionType getTransactionType() {
         return TransactionType.LOGOUT;
@@ -15,7 +15,7 @@ public class LogoutHandler implements TransactionHandler {
     }
 
     @Override
-    public boolean transactionChecker(Transaction transaction) {
+    public boolean handleTransaction(Transaction transaction) {
         return false;
     }
 }
