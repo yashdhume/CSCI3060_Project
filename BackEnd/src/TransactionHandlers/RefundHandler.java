@@ -8,6 +8,11 @@ import Transaction.RefundTransaction;
 
 public class RefundHandler extends BasicHandler {
     private AccountFileIO accountFileIO;
+
+    public RefundHandler(AccountFileIO accountFileIO) {
+        this.accountFileIO = accountFileIO;
+    }
+
     @Override
     public TransactionType getTransactionType() {
         return TransactionType.REFUND;

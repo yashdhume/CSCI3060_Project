@@ -16,7 +16,6 @@ public class AccountFileIO extends FileIO {
      * Returns all accounts from file
      */
     public ArrayList<Account> getAccounts() {
-        fetchAccountsFromFile();
         return accounts;
     }
 

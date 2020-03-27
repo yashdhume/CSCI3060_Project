@@ -17,7 +17,6 @@ public class TransactionFileIO extends FileIO {
     }
 
     public ArrayList<Transaction> getTransactions() {
-        fetchTransactionsFromFile();
         return transactions;
     }
 

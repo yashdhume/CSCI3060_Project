@@ -13,7 +13,6 @@ public class ItemFileIO extends FileIO {
     }
 
     public ArrayList<Item> getItems() {
-        fetchAccountsFromFile();
         return items;
     }
 

@@ -8,6 +8,11 @@ import Transaction.AddCreditTransaction;
 
 public class AddCreditHandler extends BasicHandler{
     private AccountFileIO accountFileIO;
+
+    public AddCreditHandler(AccountFileIO accountFileIO) {
+        this.accountFileIO = accountFileIO;
+    }
+
     @Override
     public TransactionType getTransactionType() {
         return TransactionType.ADD_CREDIT;

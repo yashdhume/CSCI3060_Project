@@ -8,6 +8,11 @@ import Transaction.CreateTransaction;
 
 public class CreateHandler extends BasicHandler{
     private AccountFileIO accountFileIO;
+
+    public CreateHandler(AccountFileIO accountFileIO) {
+        this.accountFileIO = accountFileIO;
+    }
+
     @Override
     public TransactionType getTransactionType() {
         return TransactionType.CREATE;
@@ -21,8 +26,7 @@ public class CreateHandler extends BasicHandler{
     @Override
     public boolean handleTransaction(Transaction transaction) {
         if (!checkType(transaction)) return false;
-
-
+        System.out.println(transaction.getTransactionType());
         CreateTransaction createTransaction = (CreateTransaction)transaction;
 
         Account account = accountFileIO.getAccountByName((createTransaction.getAccountName()));
