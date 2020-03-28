@@ -1,5 +1,7 @@
 package Transaction;
 
+import Utilities.StringManipulation;
+
 public class BidTransaction extends Transaction{
     private String itemName;
     private String sellerUserName;
@@ -38,12 +40,12 @@ public class BidTransaction extends Transaction{
 
     @Override
     public String toString() {
-        return "BidTransaction{" +
-                "itemName='" + itemName + '\'' +
-                ", sellerUserName='" + sellerUserName + '\'' +
-                ", buyerUserName='" + buyerUserName + '\'' +
-                ", highestBidderUserName='" + highestBidderUserName + '\'' +
-                ", newBid=" + newBid +
-                '}';
+        //XX_IIIIIIIIIIIIIIIIIII_SSSSSSSSSSSSSSS_UUUUUUUUUUUUUU_PPPPPP
+        StringManipulation sm = new StringManipulation();
+        return TransactionType.BID +
+                " " + itemName +
+                " " + sellerUserName +
+                " " + buyerUserName +
+                " " + sm.newBidFormatted(newBid);
     }
 }

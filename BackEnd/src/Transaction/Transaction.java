@@ -1,6 +1,7 @@
 package Transaction;
 
 import Account.AccountType;
+import Utilities.StringManipulation;
 
 public class Transaction {
     private TransactionType transactionType;
@@ -26,11 +27,11 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return "Transaction{" +
-                "transactionType=" + transactionType +
-                ", username='" + username + '\'' +
-                ", accountType=" + accountType +
-                ", availableCredit=" + availableCredit +
-                '}';
+        //XX_UUUUUUUUUUUUUUU_TT_CCCCCCCCC
+        StringManipulation sm = new StringManipulation();
+        return TransactionType.ADD_CREDIT +
+                " " + username+
+                " " + accountType +
+                " " + sm.availableCreditFormatted(availableCredit);
     }
 }

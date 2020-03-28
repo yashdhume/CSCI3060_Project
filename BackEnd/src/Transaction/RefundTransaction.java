@@ -1,5 +1,7 @@
 package Transaction;
 
+import Utilities.StringManipulation;
+
 public class RefundTransaction extends Transaction{
     private String sellerUserName;
     private String highestBidderUserName;
@@ -37,10 +39,11 @@ public class RefundTransaction extends Transaction{
 
     @Override
     public String toString() {
-        return "RefundTransaction{" +
-                "sellerUserName='" + sellerUserName + '\'' +
-                ", highestBidderUserName='" + highestBidderUserName + '\'' +
-                ", itemCredits=" + itemCredits +
-                '}';
+        //XX_UUUUUUUUUUUUUUU_SSSSSSSSSSSSSSS_CCCCCCCCC
+        StringManipulation sm = new StringManipulation();
+        return TransactionType.REFUND +
+                " " + highestBidderUserName +
+                " " + sellerUserName + '\'' +
+                " " + sm.availableCreditFormatted(itemCredits);
     }
 }

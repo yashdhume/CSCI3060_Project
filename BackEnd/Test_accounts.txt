@@ -4,4 +4,5 @@ admin1          AA 000200.00
 userss          SS 000200.00
 user02          FS 000000.13
 user05          FS 000000.13
+user06          FS 000000.13
 END

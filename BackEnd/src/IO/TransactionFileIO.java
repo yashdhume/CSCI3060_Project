@@ -1,5 +1,6 @@
 package IO;
 
+import Account.Account;
 import Account.AccountType;
 import Transaction.*;
 
@@ -25,6 +26,9 @@ public class TransactionFileIO extends FileIO {
         transactions.remove(transaction);
     }
 
+    /**
+     * Populates all transactions array from file
+     */
     public void fetchTransactionsFromFile(){
         ArrayList<String> lines = this.readLines();
 
@@ -107,5 +111,14 @@ public class TransactionFileIO extends FileIO {
             }
 
         }
+    }
+
+    //Writes to file in an Account file
+    public void writeToFile(){
+        ArrayList<String> lines = new ArrayList<>();
+        for(Transaction transaction: transactions){
+            lines.add(transaction.toString());
+        }
+        this.writeLines(lines);
     }
 }

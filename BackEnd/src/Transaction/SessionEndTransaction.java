@@ -1,6 +1,7 @@
 package Transaction;
 
 import Account.AccountType;
+import Utilities.StringManipulation;
 
 public class SessionEndTransaction extends Transaction{
     private String username;
@@ -17,10 +18,11 @@ public class SessionEndTransaction extends Transaction{
 
     @Override
     public String toString() {
-        return "EndSessionTransaction{" +
-                "username='" + username + '\'' +
-                ", accountType=" + accountType +
-                ", availableCredit=" + availableCredit +
-                '}';
+        //XX_UUUUUUUUUUUUUUU_TT_CCCCCCCCC
+        StringManipulation sm = new StringManipulation();
+        return TransactionType.ADD_CREDIT +
+                " " + username+
+                " " + accountType +
+                " " + sm.availableCreditFormatted(availableCredit);
     }
 }
