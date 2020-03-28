@@ -1,6 +1,7 @@
 package Transaction;
 
 import Account.AccountType;
+import Utilities.StringManipulation;
 
 public class DeleteTransaction extends Transaction{
     private String accountName;
@@ -36,10 +37,11 @@ public class DeleteTransaction extends Transaction{
 
     @Override
     public String toString() {
-        return "DeleteTransaction{" +
-                "accountName='" + accountName + '\'' +
-                ", accountType=" + accountType +
-                ", accountCredits=" + accountCredits +
-                '}';
+        //XX_UUUUUUUUUUUUUUU_TT_CCCCCCCCC
+        StringManipulation sm = new StringManipulation();
+        return TransactionType.ADD_CREDIT +
+                " " + accountName+
+                " " + accountType +
+                " " + sm.availableCreditFormatted(accountCredits);
     }
 }

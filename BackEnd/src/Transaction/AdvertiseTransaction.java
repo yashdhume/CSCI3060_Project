@@ -1,5 +1,7 @@
 package Transaction;
 
+import Utilities.StringManipulation;
+
 public class AdvertiseTransaction extends Transaction {
     private String itemName;
     private String sellerUsername;
@@ -59,13 +61,13 @@ public class AdvertiseTransaction extends Transaction {
 
     @Override
     public String toString() {
-        return "AdvertiseTransaction{" +
-                "itemName='" + itemName + '\'' +
-                ", sellerUsername='" + sellerUsername + '\'' +
-                ", highestBidderUsername='" + highestBidderUsername + '\'' +
-                ", daysLeft=" + daysLeft +
-                ", minimumBid=" + minimumBid +
-                '}';
+        //XX_IIIIIIIIIIIIIIIIIII_SSSSSSSSSSSSSSS_DDD_PPPPPP
+        StringManipulation sm = new StringManipulation();
+        return TransactionType.ADVERTISE +
+                " " + itemName +
+                " " + sellerUsername +
+                " " + sm.numOfDaysFormatted(daysLeft) +
+                " " + sm.newBidFormatted(minimumBid);
     }
 }
 
