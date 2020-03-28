@@ -1,11 +1,8 @@
 package IO;
 
 import Account.AccountType;
-import Item.Item;
 import Transaction.*;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class TransactionFileIO extends FileIO {
@@ -106,7 +103,7 @@ public class TransactionFileIO extends FileIO {
                 availableCredit = Double.parseDouble(line.substring(22));//Get Available Credit
 
                 //SESSION_END
-                transactions.add(new EndSessionTransaction(transactionCode, username, atype, availableCredit));
+                transactions.add(new SessionEndTransaction(username, atype, availableCredit));
             }
 
         }
