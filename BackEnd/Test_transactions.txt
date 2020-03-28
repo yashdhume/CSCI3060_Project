@@ -1,6 +1,3 @@
-01 user10          FS 000001.13
-06 user10          FS 000051.21
-02 user10          FS 000001.13
-05 userbs          userss          000001.13
-03 newitem             userss          023 033.00
+06 user11          BS 19280
+00 admin1          AA 200
 END
