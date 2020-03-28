@@ -1,9 +1,9 @@
-IIIIIIIIIIIIIIIIIII SSSSSSSSSSSSSSS UUUUUUUUUUUUUUU 111 111.11
-item1               seller1         admin1          056 000.41
-item2               user10                          023 000.44
-item3               user1                           010 033.00
-item4               user2           user10          998 002.00
-cat                 user2                           023 050.00
+IIIIIIIIIIIIIIIIIII SSSSSSSSSSSSSSS UUUUUUUUUUUUUUU 111 000.00
+item1               seller1         admin1          056 000.00
+item2               user10                          023 000.00
+item3               user1                           010 000.00
+item4               user2           user10          998 000.00
+cat                 user2                           023 000.00
 catastrophic        user2                           000 000.00
 newitem             userss                          023 000.00
 END

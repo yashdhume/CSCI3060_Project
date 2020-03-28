@@ -34,12 +34,11 @@ public class AdvertiseHandler extends BasicHandler {
         AdvertiseTransaction advertiseTransaction = (AdvertiseTransaction) transaction;
 
         Account account = accountFileIO.getAccountByName(advertiseTransaction.getSellerUsername());
-
         if (account == null) return false;
         Item item = itemFileIO.getItemByUserAndItemName(advertiseTransaction.getSellerUsername(), advertiseTransaction.getItemName());
         if (item != null) return false;
-
-        item = new Item(advertiseTransaction.getItemName(), advertiseTransaction.getSellerUsername(), "", advertiseTransaction.getDaysLeft(), advertiseTransaction.getMinimumBid(), true);
+        item = new Item(advertiseTransaction.getItemName(), advertiseTransaction.getSellerUsername(), "", advertiseTransaction.getDaysLeft(), advertiseTransaction.getMinimumBid());
+        item.setCurrentHighestBid(advertiseTransaction.getMinimumBid());
         itemFileIO.addItems(item);
 
         return true;

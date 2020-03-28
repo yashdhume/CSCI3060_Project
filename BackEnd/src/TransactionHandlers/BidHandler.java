@@ -36,7 +36,7 @@ public class BidHandler extends BasicHandler {
         Item item = itemFileIO.getItemByUserAndItemName(bidTransaction.getSellerUserName(), bidTransaction.getItemName());
         if (item==null) return false;
         item.setHighestBidderUserName(buyerAccount.getAccountName());
-        item.setMinimumBid(bidTransaction.getNewBid());
+        item.setCurrentHighestBid(bidTransaction.getNewBid());
         buyerAccount.setAccountCredits(buyerAccount.getAccountCredits()-bidTransaction.getNewBid());
         return true;
     }
