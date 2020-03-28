@@ -27,7 +27,7 @@ public class Main {
             }
         }
         accountFileIO.writeToFile();
-
+        itemFileIO.writeToFile();
 
     }
 }

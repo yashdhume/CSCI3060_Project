@@ -49,10 +49,9 @@ public class TransactionFileIO extends FileIO {
                 //XX_IIIIIIIIIIIIIIIIIII_SSSSSSSSSSSSSSS_DDD_PPPPPP
                 //transaction code = line.substring(0,2)
                 String itemName = line.substring(3, 22);
-                String sellerUsername = line.substring(23, 36);
+                String sellerUsername = line.substring(24, 36);
                 int numOfAucDays = Integer.parseInt(line.substring(37, 40));
-                double minBid = Double.parseDouble(line.substring(43));
-
+                double minBid = Double.parseDouble(line.substring(41));
                 transactions.add(new AdvertiseTransaction(itemName, sellerUsername, "", numOfAucDays, minBid));
 
             } else if (transactionCode == TransactionType.BID) {
