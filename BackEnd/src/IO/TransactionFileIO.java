@@ -52,9 +52,6 @@ public class TransactionFileIO extends FileIO {
                 int numOfAucDays = Integer.parseInt(line.substring(39, 42));
                 double minBid = Double.parseDouble(line.substring(43));
 
-                System.out.println(itemName.length());
-                System.out.println(sellerUsername.length());
-
                 transactions.add(new AdvertiseTransaction(itemName, sellerUsername, "", numOfAucDays, minBid));
 
             } else if (transactionCode == TransactionType.BID) {

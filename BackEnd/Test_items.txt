@@ -5,5 +5,4 @@ item3               user1                           010 000.00
 item4               user2           user10          998 000.00
 cat                 user2                           023 000.00
 catastrophic        user2                           000 000.00
-newitem             userss                          023 000.00
 END

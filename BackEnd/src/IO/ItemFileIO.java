@@ -38,7 +38,7 @@ public class ItemFileIO extends FileIO {
 
     public Item getItemByUserAndItemName(String sellerName, String itemName){
         for (Item item : items){
-            if(item.getSellerUserName().trim().equals(sellerName.trim())&& item.getItemName().trim().equals(itemName.trim())) {
+            if(item.getSellerUserName().equals(sellerName) && item.getItemName().equals(itemName)) {
                 return item;
             }
         }return null;
