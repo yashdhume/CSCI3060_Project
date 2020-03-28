@@ -11,22 +11,15 @@ public class Item {
     private double minimumBid;
     private boolean newItemName;
 
-    public Item(String itemName, String sellerUserName, String highestBidderUserName, int daysLeft, double minimumBid, boolean newItemName) {
+    public Item(String itemName, String sellerUserName, String highestBidderUserName, int daysLeft, double minimumBid) {
         this.itemName = itemName;
         this.sellerUserName = sellerUserName;
         this.highestBidderUserName = highestBidderUserName;
         this.daysLeft = daysLeft;
         this.minimumBid = minimumBid;
-        this.newItemName = newItemName;
     }
 
-    public Item(String itemName, String sellerUserName, String highestBidderUserName, int daysLeft, double currentHighestBid){
-        this.itemName = itemName;
-        this.sellerUserName = sellerUserName;
-        this.highestBidderUserName = highestBidderUserName;
-        this.daysLeft = daysLeft;
-        this.currentHighestBid = currentHighestBid;
-    }
+
 
     public double getCurrentHighestBid() {
         return currentHighestBid;
@@ -74,10 +67,6 @@ public class Item {
 
     public void setMinimumBid(double minimumBid) {
         this.minimumBid = minimumBid;
-    }
-
-    public boolean isNewItemName() {
-        return newItemName;
     }
 
     public void setNewItemName(boolean newItemName) {

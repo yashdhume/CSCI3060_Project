@@ -1,7 +1,7 @@
 user11          AA 000000.00
-userbs          BS 000216.95
+userbs          BS 000055.37
 admin1          AA 000200.00
-userss          SS 000183.05
+userss          SS 000144.63
 user02          FS 000000.13
 user05          FS 000000.13
 user06          FS 000000.13

@@ -3,4 +3,5 @@
 02 user10          FS 000001.13
 05 userbs          userss         000001.13
 03 newitem              userss       023 000033
+04 newitem             userss          userbs         000040
 END
