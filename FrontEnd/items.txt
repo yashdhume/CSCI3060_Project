@@ -1,7 +1,8 @@
-item1               seller1         admin1          056 000041
+item1               seller1         user1           056 000060
 item2               user10                          023 000544
 item3               user1                           010 184933
 item4               user2           user10          998 000002
 cat                 user2                           023 000050
 catastrophic        user2                           000 000000
+newItem             userss                          050 000015
 END                                                           

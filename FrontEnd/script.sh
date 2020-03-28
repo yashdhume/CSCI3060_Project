@@ -22,7 +22,7 @@ do
   echo -e "Running Test: \033[1;30m$testCase\033[21m" #show which files are running
 
   #run the program with io rediroction ( inputs from the input folder and output to the outputfolder )
-  cmake-build-debug/Phase3 accounts.txt items.txt  $PWD/tests/transactions/$baseName/transaction_$testCase.atf < "$i" > $PWD/tests/output/$baseName/$testCase.out
+  cmake-build-debug/FrontEnd accounts.txt items.txt  $PWD/tests/transactions/$baseName/transaction_$testCase.atf < "$i" > $PWD/tests/output/$baseName/$testCase.out
 
   #if the output test case and transaction test case exisits t
   if [ -e $PWD/tests/output/$baseName/$testCase.out ] && [ -e $PWD/tests/transactions/$baseName/transaction_$testCase.atf ];

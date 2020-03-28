@@ -1,10 +1,11 @@
 
 #include "../../Headers/transactions/AccountDeletedTransaction.h"
+#include "../../Headers/IOHelper.h"
 
 #include <utility>
 
 AccountDeletedTransaction::AccountDeletedTransaction(Account account) : account(std::move(account)) {}
 
 std::string AccountDeletedTransaction::toString() {
-    return "02 "+account.username+" "+account.accountType->getShortName()+" "+std::to_string((int)account.credit);
+    return "02 "+IOHelper::leftJustify(account.username, ' ', 15)+" "+account.accountType->getShortName()+" "+IOHelper::leftJustify(std::to_string((int)account.credit), ' ', 9);
 }

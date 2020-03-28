@@ -12,54 +12,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a75f263-d436-4649-b40a-a0c1619febf1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scriptNew.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions/input/01loginlogout.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions/input/02createdelete.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions/input/03advertise.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions/input/04bid.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions/input/05refund.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions/input/06addcredit.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions/output/01loginlogout.atf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions/output/02createdelete.atf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions/output/03advertise.atf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions/output/04bid.atf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions/output/05refund.atf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions/output/06addcredit.atf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/Account.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/AccountDatabase.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/Authenticator.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/Item.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/ItemDatabase.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/SessionHandler.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/accounttypes/AccountType.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/accounttypes/AdminAccountType.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/accounttypes/BuyStandardAccountType.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/accounttypes/FullStandardAccountType.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/accounttypes/SellStandardAccountType.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/services/AccountsService.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/services/CreditService.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/services/SalesService.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/services/SignInService.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/transactions/AccountCreatedTransaction.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/transactions/AccountDeletedTransaction.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/transactions/AdvertiseTransaction.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/transactions/BidTransaction.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/transactions/CreditAddedTransaction.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/transactions/RefundTransaction.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/transactions/SessionEndTransaction.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/Classes/transactions/Transaction.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/transactions/AccountCreatedTransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/transactions/AccountCreatedTransaction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/transactions/AccountDeletedTransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/transactions/AccountDeletedTransaction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/transactions/AdvertiseTransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/transactions/AdvertiseTransaction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/transactions/BidTransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/transactions/BidTransaction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/transactions/CreditAddedTransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/transactions/CreditAddedTransaction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/transactions/RefundTransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/transactions/RefundTransaction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/transactions/SessionEndTransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/transactions/SessionEndTransaction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/accounts.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FrontEnd.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FrontEnd.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FrontEnd.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FrontEnd" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FrontEnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/items.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/differenceoutput/02createdelete/test_06_successful_create,_successful_delete.diffout" beforeDir="false" afterPath="$PROJECT_DIR$/tests/differenceoutput/02createdelete/test_06_successful_create,_successful_delete.diffout" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/differencetransaction/02createdelete/transaction_test_06_successful_create,_successful_delete.diffatf" beforeDir="false" afterPath="$PROJECT_DIR$/tests/differencetransaction/02createdelete/transaction_test_06_successful_create,_successful_delete.diffatf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/input/02createdelete/test_06_successful_create,_successful_delete.inp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/input/02createdelete/test_06_successful_create,_successful_delete.inp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/output/02createdelete/test_06_successful_create,_successful_delete.out" beforeDir="false" afterPath="$PROJECT_DIR$/tests/output/02createdelete/test_06_successful_create,_successful_delete.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/01loginlogout/transaction_test_01_successful_login.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/01loginlogout/transaction_test_02_failed_cannot_login_while_logged_in.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/01loginlogout/transaction_test_04_successful_logout.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/02createdelete/transaction_test_06_successful_create,_successful_delete.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/02createdelete/transaction_test_08_fail_create_username_must_be_lessthan_15_chars.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/02createdelete/transaction_test_09_fail_create_no_duplicate_usernames.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/02createdelete/transaction_test_12_fail_cannot_delete_non-existant_user.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/03advertise/transaction_test_13_successful_advertise.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/03advertise/transaction_test_14_fail_cannot_advertise_without_sell_permission.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/03advertise/transaction_test_15_ail_advertise_max_price_is_99999.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/03advertise/transaction_test_17_fail_advertise_item_name_lessthan_25_chars.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/03advertise/transaction_test_18_fail_advertise_max_days_is_100.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/04bid/transaction_test_19_successful_bid.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/04bid/transaction_test_20_fail_cannot_bid_without_buy_permission.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/04bid/transaction_test_21_fail_bid_item_name_must_exist.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/04bid/transaction_test_23_fail_bid_must_be_more_than_previous_bid.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/04bid/transaction_test_24_fail_bid_must_be_5p_higher_on_non_admin_account.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/04bid/transaction_test_25_fail_bid_can_be_less_than_5p_higher_on_admin_account.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/05refund/transaction_test_27_fail_successful_refund.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/05refund/transaction_test_28_fail_refund,_buyer_does_not_exist.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/05refund/transaction_test_29_fail_refund,_seller_does_not.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/06addcredit/transaction_test_31_successful_admin_add_credit.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/06addcredit/transaction_test_32_fail_admin_add_credit,_user_does_not_exist.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/06addcredit/transaction_test_33_successful_non-admin_add_credit.atf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transactions/06addcredit/transaction_test_34_fail_add_credit,_credit_lessthan_1000.atf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +94,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -120,6 +130,8 @@
       <workItem from="1583353016302" duration="1620000" />
       <workItem from="1583691463605" duration="7522000" />
       <workItem from="1585114124880" duration="434000" />
+      <workItem from="1585424563653" duration="237000" />
+      <workItem from="1585426140116" duration="6807000" />
     </task>
     <servers />
   </component>
@@ -131,22 +143,30 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1583353090553" />
-    <state width="1638" height="46" key="GridCell.Tab.0.bottom" timestamp="1583354745914">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="550" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585432787716">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="46" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583354745914" />
-    <state width="1638" height="46" key="GridCell.Tab.0.center" timestamp="1583354745911">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="550" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1585432787716" />
+    <state width="1638" height="365" key="GridCell.Tab.0.bottom" timestamp="1585433218532">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="46" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583354745911" />
-    <state width="1638" height="46" key="GridCell.Tab.0.left" timestamp="1583354745910">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="365" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585433218532" />
+    <state width="1638" height="365" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1585429162839" />
+    <state width="1638" height="365" key="GridCell.Tab.0.center" timestamp="1585433218530">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="46" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583354745910" />
-    <state width="1638" height="46" key="GridCell.Tab.0.right" timestamp="1583354745914">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="365" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585433218530" />
+    <state width="1638" height="365" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1585429162837" />
+    <state width="1638" height="365" key="GridCell.Tab.0.left" timestamp="1585433218528">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="46" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583354745914" />
+    <state width="1638" height="365" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585433218528" />
+    <state width="1638" height="365" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1585429162835" />
+    <state width="1638" height="365" key="GridCell.Tab.0.right" timestamp="1585433218531">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="365" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585433218531" />
+    <state width="1638" height="365" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1585429162838" />
     <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1583354743258">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -163,9 +183,18 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="345" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583354743258" />
-    <state x="517" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1585114125129">
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585432111997">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="517" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1585114125129" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1050@0.23.1680.1027" timestamp="1585432111997" />
+    <state x="517" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1585426152872">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="517" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1585426152872" />
+    <state x="505" y="232" width="670" height="692" key="search.everywhere.popup" timestamp="1585429673833">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="232" width="670" height="692" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585429673833" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1585426423655" />
   </component>
 </project>

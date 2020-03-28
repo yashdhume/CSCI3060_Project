@@ -59,7 +59,6 @@ int main(int argc, char **argv){
         std::cout << "Not enough arguments (must be at-least 3)" << std::endl;
         return 0;
     }
-
     //database files
 //    std::string accountsFile = "accounts.txt";
 //    std::string itemsFile = "items.txt";
