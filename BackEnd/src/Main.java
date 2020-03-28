@@ -1,6 +1,8 @@
+import Account.Account;
 import IO.AccountFileIO;
 import IO.ItemFileIO;
 import IO.TransactionFileIO;
+import Item.Item;
 import Transaction.Transaction;
 import TransactionHandlers.*;
 
@@ -21,14 +23,24 @@ public class Main {
                 new RefundHandler(accountFileIO)
         };
         for(Transaction transaction : transactionFileIO.getTransactions()){
-//            System.out.println(transaction);
             for(TransactionHandler handler: transactionHandlers){
                 boolean transactionComplete = handler.handleTransaction(transaction);
                 if(transactionComplete)System.out.println(transaction.getTransactionType()+ " " +"Completed");
             }
         }
+        for (Item item : itemFileIO.getItems()) {
+            if (item.getDaysLeft() == 0) {
+                Account sellerAccount = accountFileIO.getAccountByName(item.getSellerUserName());
+                sellerAccount.setAccountCredits(sellerAccount.getAccountCredits() + item.getCurrentHighestBid());
+                itemFileIO.removeItem(item);
+                continue;
+            }
+            item.setDaysLeft(item.getDaysLeft() - 1);
+        }
         accountFileIO.writeToFile();
         itemFileIO.writeToFile();
+
+
 
     }
 }
