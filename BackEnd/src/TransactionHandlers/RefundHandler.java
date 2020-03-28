@@ -32,7 +32,7 @@ public class RefundHandler extends BasicHandler {
         Account buyerAccount = accountFileIO.getAccountByName(refundTransaction.getHighestBidderUserName());
         if (buyerAccount==null)return false;
         sellerAccount.setAccountCredits(sellerAccount.getAccountCredits()-refundTransaction.getItemCredits());
-        buyerAccount.setAccountCredits(buyerAccount.getAccountCredits()+buyerAccount.getAccountCredits());
+        buyerAccount.setAccountCredits(buyerAccount.getAccountCredits()+refundTransaction.getItemCredits());
         return true;
     }
 }

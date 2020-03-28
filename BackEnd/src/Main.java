@@ -23,7 +23,7 @@ public class Main {
         for(Transaction transaction : transactionFileIO.getTransactions()){
             for(TransactionHandler handler: transactionHandlers){
                 boolean transactionComplete = handler.handleTransaction(transaction);
-                if(transactionComplete)System.out.println(transaction.getTransactionType()+ " " +transactionComplete);
+                if(transactionComplete)System.out.println(transaction.getTransactionType()+ " " +"Completed");
             }
         }
         accountFileIO.writeToFile();

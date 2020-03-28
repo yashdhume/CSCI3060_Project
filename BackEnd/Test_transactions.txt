@@ -1,2 +1,4 @@
-01 user05          FS 000000.13
+01 user02          FS 000001.13
+05 userbs          userss         000001.13
+03 newitem            userss         023 000033
 END

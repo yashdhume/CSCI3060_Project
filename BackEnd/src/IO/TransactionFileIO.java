@@ -45,8 +45,8 @@ public class TransactionFileIO extends FileIO {
                 //XX_IIIIIIIIIIIIIIIIIII_SSSSSSSSSSSSSSS_DDD_PPPPPP
                 //transaction code = line.substring(0,2)
                 String itemName = line.substring(3, 22);
-                String sellerUsername = line.substring(23, 38);
-                int numOfAucDays = Integer.parseInt(line.substring(39, 42));
+                String sellerUsername = line.substring(23, 36);
+                int numOfAucDays = Integer.parseInt(line.substring(37, 40));
                 double minBid = Double.parseDouble(line.substring(43));
 
                 transactions.add(new AdvertiseTransaction(itemName, sellerUsername, "", numOfAucDays, minBid));
