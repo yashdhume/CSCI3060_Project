@@ -35,4 +35,15 @@ public class BidTransaction extends Transaction{
     public double getNewBid() {
         return newBid;
     }
+
+    @Override
+    public String toString() {
+        return "BidTransaction{" +
+                "itemName='" + itemName + '\'' +
+                ", sellerUserName='" + sellerUserName + '\'' +
+                ", buyerUserName='" + buyerUserName + '\'' +
+                ", highestBidderUserName='" + highestBidderUserName + '\'' +
+                ", newBid=" + newBid +
+                '}';
+    }
 }

@@ -2,23 +2,14 @@ package Transaction;
 
 import Account.AccountType;
 
-public class Transaction {
+public class EndSessionTransaction extends Transaction{
     private TransactionType transactionType;
     private String username;
     private AccountType accountType;
     private double availableCredit;
 
-    public TransactionType getTransactionType() {
-        return transactionType;
-    }
-
-    public Transaction(TransactionType transactionType) {
-        this.transactionType = transactionType;
-    }
-
-    public Transaction(TransactionType transactionType, String username,
-                       AccountType accountType, double availableCredit) {
-        this.transactionType = transactionType;
+    public EndSessionTransaction(TransactionType transactionType, String username, AccountType accountType, double availableCredit) {
+        super(transactionType);
         this.username = username;
         this.accountType = accountType;
         this.availableCredit = availableCredit;
@@ -26,7 +17,7 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return "Transaction{" +
+        return "EndSessionTransaction{" +
                 "transactionType=" + transactionType +
                 ", username='" + username + '\'' +
                 ", accountType=" + accountType +

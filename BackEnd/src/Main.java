@@ -21,9 +21,10 @@ public class Main {
                 new RefundHandler(accountFileIO)
         };
         for(Transaction transaction : transactionFileIO.getTransactions()){
-            for(TransactionHandler handler: transactionHandlers){
-                boolean transactionComplete = handler.handleTransaction(transaction);
-            }
+            System.out.println(transaction);
+//            for(TransactionHandler handler: transactionHandlers){
+//                boolean transactionComplete = handler.handleTransaction(transaction);
+//            }
         }
 
 

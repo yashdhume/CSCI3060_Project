@@ -35,4 +35,12 @@ public class RefundTransaction extends Transaction{
         this.itemCredits = itemCredits;
     }
 
+    @Override
+    public String toString() {
+        return "RefundTransaction{" +
+                "sellerUserName='" + sellerUserName + '\'' +
+                ", highestBidderUserName='" + highestBidderUserName + '\'' +
+                ", itemCredits=" + itemCredits +
+                '}';
+    }
 }

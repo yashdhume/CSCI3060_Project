@@ -33,4 +33,13 @@ public class AddCreditTransaction extends Transaction{
     public void setAccountCredits(double accountCredits) {
         this.accountCredits = accountCredits;
     }
+
+    @Override
+    public String toString() {
+        return "AddCreditTransaction{" +
+                "accountName='" + accountName + '\'' +
+                ", accountType=" + accountType +
+                ", accountCredits=" + accountCredits +
+                '}';
+    }
 }
