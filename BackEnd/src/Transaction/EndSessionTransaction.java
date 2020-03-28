@@ -9,7 +9,7 @@ public class EndSessionTransaction extends Transaction{
     private double availableCredit;
 
     public EndSessionTransaction(TransactionType transactionType, String username, AccountType accountType, double availableCredit) {
-        super(transactionType);
+        super(TransactionType.SESSION_END);
         this.username = username;
         this.accountType = accountType;
         this.availableCredit = availableCredit;
