@@ -43,6 +43,7 @@ public class AccountFileIO extends FileIO {
     public Account getAccountByName(String name) {
         for (Account account : accounts) {
             System.out.println(account.getAccountName().length()+ " "+ name.length());
+            System.out.println(account.getAccountName()+ " "+ name);
             if (account.getAccountName().equals(name)) {
                 return account;
             }

@@ -29,8 +29,8 @@ public class Transaction {
     public String toString() {
         //XX_UUUUUUUUUUUUUUU_TT_CCCCCCCCC
         StringManipulation sm = new StringManipulation();
-        return TransactionType.ADD_CREDIT +
-                " " + username+
+        return TransactionType.CREATE.getAccountTypeCode() +
+                " " + username +
                 " " + accountType +
                 " " + sm.availableCreditFormatted(availableCredit);
     }

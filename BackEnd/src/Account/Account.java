@@ -41,6 +41,7 @@ public class Account {
 
     /**
      * This function returns the Account String formated for Accounts file.
+     * UUUUUUUUUUUUUUU_TT_CCCCCCCCC
      * */
     public String formatedString(){
         StringManipulation sj = new StringManipulation();

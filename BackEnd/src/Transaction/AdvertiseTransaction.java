@@ -63,7 +63,7 @@ public class AdvertiseTransaction extends Transaction {
     public String toString() {
         //XX_IIIIIIIIIIIIIIIIIII_SSSSSSSSSSSSSSS_DDD_PPPPPP
         StringManipulation sm = new StringManipulation();
-        return TransactionType.ADVERTISE +
+        return TransactionType.ADVERTISE.getAccountTypeCode() +
                 " " + itemName +
                 " " + sellerUsername +
                 " " + sm.numOfDaysFormatted(daysLeft) +

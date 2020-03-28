@@ -42,7 +42,7 @@ public class BidTransaction extends Transaction{
     public String toString() {
         //XX_IIIIIIIIIIIIIIIIIII_SSSSSSSSSSSSSSS_UUUUUUUUUUUUUU_PPPPPP
         StringManipulation sm = new StringManipulation();
-        return TransactionType.BID +
+        return TransactionType.BID.getAccountTypeCode() +
                 " " + itemName +
                 " " + sellerUserName +
                 " " + buyerUserName +

@@ -20,7 +20,7 @@ public class SessionEndTransaction extends Transaction{
     public String toString() {
         //XX_UUUUUUUUUUUUUUU_TT_CCCCCCCCC
         StringManipulation sm = new StringManipulation();
-        return TransactionType.ADD_CREDIT +
+        return TransactionType.SESSION_END.getAccountTypeCode() +
                 " " + username+
                 " " + accountType +
                 " " + sm.availableCreditFormatted(availableCredit);

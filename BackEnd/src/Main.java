@@ -21,6 +21,7 @@ public class Main {
                 new RefundHandler(accountFileIO)
         };
         for(Transaction transaction : transactionFileIO.getTransactions()){
+//            System.out.println(transaction);
             for(TransactionHandler handler: transactionHandlers){
                 boolean transactionComplete = handler.handleTransaction(transaction);
                 if(transactionComplete)System.out.println(transaction.getTransactionType()+ " " +"Completed");

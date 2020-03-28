@@ -39,7 +39,7 @@ public class DeleteTransaction extends Transaction{
     public String toString() {
         //XX_UUUUUUUUUUUUUUU_TT_CCCCCCCCC
         StringManipulation sm = new StringManipulation();
-        return TransactionType.ADD_CREDIT +
+        return TransactionType.DELETE.getAccountTypeCode() +
                 " " + accountName+
                 " " + accountType +
                 " " + sm.availableCreditFormatted(accountCredits);

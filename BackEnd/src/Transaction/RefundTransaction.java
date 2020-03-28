@@ -41,9 +41,9 @@ public class RefundTransaction extends Transaction{
     public String toString() {
         //XX_UUUUUUUUUUUUUUU_SSSSSSSSSSSSSSS_CCCCCCCCC
         StringManipulation sm = new StringManipulation();
-        return TransactionType.REFUND +
+        return TransactionType.REFUND.getAccountTypeCode() +
                 " " + highestBidderUserName +
-                " " + sellerUserName + '\'' +
+                " " + sellerUserName +
                 " " + sm.availableCreditFormatted(itemCredits);
     }
 }
