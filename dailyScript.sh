@@ -39,5 +39,6 @@ echo "END" >> mergedDailyTransactions.atf
 #Run the backend with the new mergedDailyTransactions.atf
 
 dir=$PWD/BackEnd/
-
+echo "Running Backend"
 java -jar $dir/BackEnd.jar > log.txt
+echo "Comleted"
