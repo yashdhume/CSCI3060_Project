@@ -1,7 +1,7 @@
 # shellcheck disable=SC2207
 #DAILY SCRIPT
 #get all files in directory that have inp as an extenstion
-files=($(find FrontEnd . -type f -regex ".*\.input"))
+files=($(find $PWD/FrontEnd/transactions/inputDay$1 -type f -regex ".*\.input"))
 
 # shellcheck disable=SC2207
 sortedFiles=( $(for arr in "${files[@]}" #sort the files so it will run in order
