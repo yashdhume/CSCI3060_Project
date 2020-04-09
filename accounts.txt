@@ -1,0 +1,5 @@
+user11          AA 019280.00
+userbs          BS 000255.37
+admin1          AA 000200.00
+userss          SS 000184.63
+END
