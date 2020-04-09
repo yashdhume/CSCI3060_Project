@@ -1,8 +1,5 @@
-IIIIIIIIIIIIIIIIIII SSSSSSSSSSSSSSS UUUUUUUUUUUUUUU 106 000.00
-item1               seller1         user11          051 000.00
-item2               user10                          018 000.00
-item3               user1                           005 000.00
-item4               user2           user10          993 000.00
-cat                 user2                           018 000.00
-newItem             userss                          495 000.00
+item1               userss          user11          043 000.00
+item4               user2           user10          985 000.00
+cat                 user2                           010 000.00
+newItem             userss                          487 000.00
 END

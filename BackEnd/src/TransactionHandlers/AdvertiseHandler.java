@@ -34,9 +34,15 @@ public class AdvertiseHandler extends BasicHandler {
         AdvertiseTransaction advertiseTransaction = (AdvertiseTransaction) transaction;
 
         Account account = accountFileIO.getAccountByName(advertiseTransaction.getSellerUsername());
-        if (account == null) return false;
+        if (account == null){
+            System.out.println("Account Does Not Exist");
+            return false;
+        }
         Item item = itemFileIO.getItemByUserAndItemName(advertiseTransaction.getSellerUsername(), advertiseTransaction.getItemName());
-        if (item != null) return false;
+        if (item != null) {
+            System.out.println("Item Already Exist");
+            return false;
+        }
         item = new Item(advertiseTransaction.getItemName(), advertiseTransaction.getSellerUsername(), "", advertiseTransaction.getDaysLeft(), advertiseTransaction.getMinimumBid());
         item.setCurrentHighestBid(advertiseTransaction.getMinimumBid());
         itemFileIO.addItems(item);

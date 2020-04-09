@@ -27,10 +27,11 @@ public class CreateHandler extends BasicHandler{
     public boolean handleTransaction(Transaction transaction) {
         if (!checkType(transaction)) return false;
         CreateTransaction createTransaction = (CreateTransaction)transaction;
-
         Account account = accountFileIO.getAccountByName((createTransaction.getAccountName()));
-        if(account!=null) return false;//already exist
-
+        if(account!=null) {
+            System.out.println("Account Already Exist");
+            return false;//already exist
+        }
         account = new Account(createTransaction.getAccountName(), createTransaction.getAccountType(), createTransaction.getAccountCredits());
         accountFileIO.addAccount(account);
         return true;

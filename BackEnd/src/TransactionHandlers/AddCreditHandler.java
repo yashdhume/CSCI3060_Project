@@ -28,7 +28,10 @@ public class AddCreditHandler extends BasicHandler{
         if(!checkType(transaction)) return false;
         AddCreditTransaction addCreditTransaction = (AddCreditTransaction) transaction;
         Account account = accountFileIO.getAccountByName(addCreditTransaction.getAccountName());
-        if (account == null) return false;
+        if (account == null) {
+            System.out.println("Account Does Not Exist");
+            return false;
+        }
         account.setAccountCredits(addCreditTransaction.getAccountCredits());
         return true;
     }

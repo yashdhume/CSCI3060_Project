@@ -28,9 +28,15 @@ public class RefundHandler extends BasicHandler {
         if(!checkType(transaction)) return false;
         RefundTransaction refundTransaction = (RefundTransaction) transaction;
         Account sellerAccount = accountFileIO.getAccountByName(refundTransaction.getSellerUserName());
-        if(sellerAccount==null) return false;
+        if(sellerAccount==null){
+            System.out.println("Seller Account does not exist");
+            return false;
+        }
         Account buyerAccount = accountFileIO.getAccountByName(refundTransaction.getHighestBidderUserName());
-        if (buyerAccount==null)return false;
+        if (buyerAccount==null){
+            System.out.println("Buyer Account does not exist");
+            return false;
+        }
         sellerAccount.setAccountCredits(sellerAccount.getAccountCredits()-refundTransaction.getItemCredits());
         buyerAccount.setAccountCredits(buyerAccount.getAccountCredits()+refundTransaction.getItemCredits());
         return true;

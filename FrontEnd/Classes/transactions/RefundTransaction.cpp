@@ -7,5 +7,5 @@
 RefundTransaction::RefundTransaction(Account buyerAccount, Account sellerAccount, double credit) : buyerAccount(std::move(buyerAccount)), sellerAccount(std::move(sellerAccount)), credit(credit) {}
 
 std::string RefundTransaction::toString() {
-    return "05 "+IOHelper::leftJustify(buyerAccount.username, ' ', 15)+" "+IOHelper::leftJustify(sellerAccount.username, ' ', 15)+" "+IOHelper::leftJustify(std::to_string((int)credit), ' ', 9);
+    return "05 "+IOHelper::leftJustify(buyerAccount.username, ' ', 15)+" "+IOHelper::leftJustify(sellerAccount.username, ' ', 15)+" "+IOHelper::rightJustify(std::to_string((int)credit), '0', 9);
 }

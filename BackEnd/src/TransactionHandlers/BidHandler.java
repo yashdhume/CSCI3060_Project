@@ -32,9 +32,15 @@ public class BidHandler extends BasicHandler {
         if(!checkType(transaction)) return false;
         BidTransaction bidTransaction = (BidTransaction)transaction;
         Account buyerAccount = accountFileIO.getAccountByName(bidTransaction.getBuyerUserName());
-        if(buyerAccount==null) return false;
+        if(buyerAccount==null){
+            System.out.println("Buyer Account does not exist");
+            return false;
+        }
         Item item = itemFileIO.getItemByUserAndItemName(bidTransaction.getSellerUserName(), bidTransaction.getItemName());
-        if (item==null) return false;
+        if (item==null) {
+            System.out.println("Item does not exist");
+            return false;
+        }
         item.setHighestBidderUserName(buyerAccount.getAccountName());
         item.setCurrentHighestBid(bidTransaction.getNewBid());
         buyerAccount.setAccountCredits(buyerAccount.getAccountCredits()-bidTransaction.getNewBid());

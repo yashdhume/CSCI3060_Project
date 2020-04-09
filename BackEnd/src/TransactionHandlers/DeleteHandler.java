@@ -28,7 +28,10 @@ public class DeleteHandler extends BasicHandler {
         if (!checkType(transaction)) return false;
         DeleteTransaction deleteTransaction = (DeleteTransaction)transaction;
         Account account = accountFileIO.getAccountByName((deleteTransaction.getAccountName()));
-        if(account==null) return false;
+        if(account==null){
+            System.out.println("Account does not exist");
+            return false;
+        }
         accountFileIO.removeAccount(account);
         return true;
     }
