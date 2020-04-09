@@ -18,11 +18,11 @@ public class HandleSession {
     }
 
     public void run(){
-        AccountFileIO accountFileIO = new AccountFileIO("Test_accounts.txt");
+        AccountFileIO accountFileIO = new AccountFileIO(accountFilePath);
         accountFileIO.fetchAccountsFromFile();
-        ItemFileIO itemFileIO = new ItemFileIO("Test_items.txt");
+        ItemFileIO itemFileIO = new ItemFileIO(itemFilePath);
         itemFileIO.fetchAccountsFromFile();
-        TransactionFileIO transactionFileIO = new TransactionFileIO("Test_transactions.txt");
+        TransactionFileIO transactionFileIO = new TransactionFileIO(transactionFilePath);
         transactionFileIO.fetchTransactionsFromFile();
 
         TransactionHandler[] transactionHandlers = new TransactionHandler[]{
