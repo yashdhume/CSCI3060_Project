@@ -10,8 +10,7 @@ do
 done | sort) )
 
 #restore database files to their orginal contents
-cp $PWD/items.txt $PWD/FrontEnd/items.txt
-cp $PWD/accounts.txt $PWD/FrontEnd/accounts.txt
+
 
 #loop through all the sorted files
 for i in "${sortedFiles[@]}";
