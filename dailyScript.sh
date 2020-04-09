@@ -40,4 +40,4 @@ echo "END" >> mergedDailyTransactions.atf
 
 dir=$PWD/BackEnd/
 
-java -jar $dir/BackEnd.jar
+java -jar $dir/BackEnd.jar > log.txt
